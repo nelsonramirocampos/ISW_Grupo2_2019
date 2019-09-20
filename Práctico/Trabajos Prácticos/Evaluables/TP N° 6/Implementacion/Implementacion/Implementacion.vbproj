@@ -72,11 +72,19 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="DatosEnvio.Designer.vb">
+      <DependentUpon>DatosEnvio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DatosEnvio.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Detalle_Pedido.vb" />
+    <Compile Include="Direccion.vb" />
+    <Compile Include="Efectivo.vb" />
+    <Compile Include="FormaPago.Designer.vb">
+      <DependentUpon>FormaPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormaPago.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -94,13 +102,42 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Pago.vb" />
+    <Compile Include="Pedido.vb" />
+    <Compile Include="Principal.Designer.vb">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Producto.vb" />
+    <Compile Include="Recepcion.vb" />
+    <Compile Include="Tarjeta.vb" />
+    <Compile Include="TiempoRecepcion.Designer.vb">
+      <DependentUpon>TiempoRecepcion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TiempoRecepcion.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DatosEnvio.resx">
+      <DependentUpon>DatosEnvio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormaPago.resx">
+      <DependentUpon>FormaPago.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TiempoRecepcion.resx">
+      <DependentUpon>TiempoRecepcion.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
