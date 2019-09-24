@@ -18,3 +18,7 @@ C:\Users\Ramiro\Desktop\Implementacion\Implementacion\bin\Debug\Resources\Delive
 C:\Users\Ramiro\Desktop\Implementacion\Implementacion\obj\Debug\Implementacion.AcercaDe.resources
 C:\Users\Ramiro\Desktop\Implementacion\Implementacion\obj\Debug\Implementacion.DatosEnvio.resources
 C:\Users\Ramiro\Desktop\Implementacion\Implementacion\obj\Debug\Implementacion.TiempoRecepcion.resources
+C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.exe.config
+C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.exe
+C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.xml
+C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.pdb
