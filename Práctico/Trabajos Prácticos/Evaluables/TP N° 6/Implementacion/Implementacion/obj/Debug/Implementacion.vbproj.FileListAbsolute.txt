@@ -1,0 +1,20 @@
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\bin\Debug\Implementacion.exe.config
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\bin\Debug\Implementacion.exe
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\bin\Debug\Implementacion.pdb
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\bin\Debug\Implementacion.xml
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\obj\Debug\Implementacion.vbprojResolveAssemblyReference.cache
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\obj\Debug\Implementacion.ArmadoPedido.resources
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\obj\Debug\Implementacion.Resources.resources
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\obj\Debug\Implementacion.Principal.resources
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\obj\Debug\Implementacion.vbproj.GenerateResource.Cache
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\obj\Debug\Implementacion.exe
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\obj\Debug\Implementacion.xml
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\obj\Debug\Implementacion.pdb
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\bin\Debug\Imagenes\Doña Ana\Pizza Comun.jpg
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\bin\Debug\Imagenes\Doña Ana\Sandwich Milanesa.jpeg
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\bin\Debug\Imagenes\Fast Food\Lomito Completo.png
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\bin\Debug\Imagenes\Fast Food\Lomito Simple.jpg
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\bin\Debug\Resources\Delivery eat.png
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\obj\Debug\Implementacion.AcercaDe.resources
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\obj\Debug\Implementacion.DatosEnvio.resources
+C:\Users\Ramiro\Desktop\Implementacion\Implementacion\obj\Debug\Implementacion.TiempoRecepcion.resources
