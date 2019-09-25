@@ -51,7 +51,7 @@
             txtNombreTitular.Text = pago.NombreTitular1
             txtApellidoTitular.Text = pago.ApellidoTitular1
             txtNroTarjeta.Text = pago.NroTarjeta1
-            txtFechaVencimiento.Text = pago.FechaVencimiento1
+            txtFechaVencimiento.Text = pago.FechaVencimiento1.Month.ToString + "/" + pago.FechaVencimiento1.Year.ToString
             txtCvc.Text = pago.Cvc1
         End If
 

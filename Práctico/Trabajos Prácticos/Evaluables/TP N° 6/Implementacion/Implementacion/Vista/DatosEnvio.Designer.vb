@@ -65,7 +65,7 @@ Partial Class DatosEnvio
         Me.txtReferencia.Multiline = True
         Me.txtReferencia.Name = "txtReferencia"
         Me.txtReferencia.Size = New System.Drawing.Size(219, 122)
-        Me.txtReferencia.TabIndex = 15
+        Me.txtReferencia.TabIndex = 4
         '
         'Label3
         '
@@ -83,7 +83,7 @@ Partial Class DatosEnvio
         Me.txtNro.Location = New System.Drawing.Point(77, 89)
         Me.txtNro.Name = "txtNro"
         Me.txtNro.Size = New System.Drawing.Size(51, 20)
-        Me.txtNro.TabIndex = 13
+        Me.txtNro.TabIndex = 2
         '
         'Label2
         '
@@ -101,7 +101,7 @@ Partial Class DatosEnvio
         Me.txtCalle.Location = New System.Drawing.Point(77, 63)
         Me.txtCalle.Name = "txtCalle"
         Me.txtCalle.Size = New System.Drawing.Size(219, 20)
-        Me.txtCalle.TabIndex = 11
+        Me.txtCalle.TabIndex = 1
         '
         'cbCiudades
         '
@@ -111,7 +111,7 @@ Partial Class DatosEnvio
         Me.cbCiudades.Location = New System.Drawing.Point(77, 115)
         Me.cbCiudades.Name = "cbCiudades"
         Me.cbCiudades.Size = New System.Drawing.Size(121, 21)
-        Me.cbCiudades.TabIndex = 10
+        Me.cbCiudades.TabIndex = 3
         '
         'Label1
         '
@@ -147,7 +147,7 @@ Partial Class DatosEnvio
         Me.btnSiguiente.Location = New System.Drawing.Point(221, 311)
         Me.btnSiguiente.Name = "btnSiguiente"
         Me.btnSiguiente.Size = New System.Drawing.Size(75, 23)
-        Me.btnSiguiente.TabIndex = 19
+        Me.btnSiguiente.TabIndex = 5
         Me.btnSiguiente.Text = "Siguiente"
         Me.btnSiguiente.UseVisualStyleBackColor = True
         '

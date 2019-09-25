@@ -42,7 +42,7 @@ Partial Class TiempoRecepcion
         Me.txtFecha.Mask = "00/00/0000"
         Me.txtFecha.Name = "txtFecha"
         Me.txtFecha.Size = New System.Drawing.Size(100, 20)
-        Me.txtFecha.TabIndex = 15
+        Me.txtFecha.TabIndex = 3
         Me.txtFecha.ValidatingType = GetType(Date)
         '
         'txtHora
@@ -52,7 +52,7 @@ Partial Class TiempoRecepcion
         Me.txtHora.Mask = "00:00"
         Me.txtHora.Name = "txtHora"
         Me.txtHora.Size = New System.Drawing.Size(100, 20)
-        Me.txtHora.TabIndex = 14
+        Me.txtHora.TabIndex = 4
         Me.txtHora.ValidatingType = GetType(Date)
         '
         'Label2
@@ -72,7 +72,7 @@ Partial Class TiempoRecepcion
         Me.rdoFechaHora.Location = New System.Drawing.Point(20, 94)
         Me.rdoFechaHora.Name = "rdoFechaHora"
         Me.rdoFechaHora.Size = New System.Drawing.Size(83, 17)
-        Me.rdoFechaHora.TabIndex = 11
+        Me.rdoFechaHora.TabIndex = 2
         Me.rdoFechaHora.TabStop = True
         Me.rdoFechaHora.Text = "Fecha/Hora"
         Me.rdoFechaHora.UseVisualStyleBackColor = True
@@ -84,7 +84,7 @@ Partial Class TiempoRecepcion
         Me.rdoAntesPosible.Location = New System.Drawing.Point(20, 71)
         Me.rdoAntesPosible.Name = "rdoAntesPosible"
         Me.rdoAntesPosible.Size = New System.Drawing.Size(102, 17)
-        Me.rdoAntesPosible.TabIndex = 10
+        Me.rdoAntesPosible.TabIndex = 1
         Me.rdoAntesPosible.TabStop = True
         Me.rdoAntesPosible.Text = "Lo antes posible"
         Me.rdoAntesPosible.UseVisualStyleBackColor = True
@@ -123,7 +123,7 @@ Partial Class TiempoRecepcion
         Me.btnSiguiente.Location = New System.Drawing.Point(308, 181)
         Me.btnSiguiente.Name = "btnSiguiente"
         Me.btnSiguiente.Size = New System.Drawing.Size(75, 23)
-        Me.btnSiguiente.TabIndex = 21
+        Me.btnSiguiente.TabIndex = 5
         Me.btnSiguiente.Text = "Siguiente"
         Me.btnSiguiente.UseVisualStyleBackColor = True
         '

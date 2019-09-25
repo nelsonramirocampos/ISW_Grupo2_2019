@@ -30,7 +30,6 @@ C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\E
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.exe
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.pdb
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.xml
-C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.vbprojResolveAssemblyReference.cache
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.AcercaDe.resources
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.ArmadoPedido.resources
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.Resources.resources

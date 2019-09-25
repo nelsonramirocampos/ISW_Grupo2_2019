@@ -70,7 +70,7 @@ Partial Class FormaPago
         Me.txtApellidoTitular.Location = New System.Drawing.Point(337, 189)
         Me.txtApellidoTitular.Name = "txtApellidoTitular"
         Me.txtApellidoTitular.Size = New System.Drawing.Size(124, 20)
-        Me.txtApellidoTitular.TabIndex = 24
+        Me.txtApellidoTitular.TabIndex = 4
         '
         'Label4
         '
@@ -88,7 +88,7 @@ Partial Class FormaPago
         Me.txtNombreTitular.Location = New System.Drawing.Point(122, 189)
         Me.txtNombreTitular.Name = "txtNombreTitular"
         Me.txtNombreTitular.Size = New System.Drawing.Size(120, 20)
-        Me.txtNombreTitular.TabIndex = 22
+        Me.txtNombreTitular.TabIndex = 3
         '
         'Label3
         '
@@ -116,7 +116,7 @@ Partial Class FormaPago
         Me.txtMonto.Location = New System.Drawing.Point(141, 90)
         Me.txtMonto.Name = "txtMonto"
         Me.txtMonto.Size = New System.Drawing.Size(73, 20)
-        Me.txtMonto.TabIndex = 18
+        Me.txtMonto.TabIndex = 1
         '
         'Label1
         '
@@ -176,7 +176,7 @@ Partial Class FormaPago
         Me.btnSiguiente.Location = New System.Drawing.Point(386, 269)
         Me.btnSiguiente.Name = "btnSiguiente"
         Me.btnSiguiente.Size = New System.Drawing.Size(75, 23)
-        Me.btnSiguiente.TabIndex = 30
+        Me.btnSiguiente.TabIndex = 7
         Me.btnSiguiente.Text = "Siguiente"
         Me.btnSiguiente.UseVisualStyleBackColor = True
         '
@@ -205,7 +205,7 @@ Partial Class FormaPago
         Me.txtNroTarjeta.Mask = "9999999999999999"
         Me.txtNroTarjeta.Name = "txtNroTarjeta"
         Me.txtNroTarjeta.Size = New System.Drawing.Size(188, 20)
-        Me.txtNroTarjeta.TabIndex = 34
+        Me.txtNroTarjeta.TabIndex = 2
         '
         'txtCvc
         '
@@ -213,7 +213,7 @@ Partial Class FormaPago
         Me.txtCvc.Mask = "999"
         Me.txtCvc.Name = "txtCvc"
         Me.txtCvc.Size = New System.Drawing.Size(42, 20)
-        Me.txtCvc.TabIndex = 35
+        Me.txtCvc.TabIndex = 6
         '
         'txtFechaVencimiento
         '
@@ -221,7 +221,7 @@ Partial Class FormaPago
         Me.txtFechaVencimiento.Mask = "00/0000"
         Me.txtFechaVencimiento.Name = "txtFechaVencimiento"
         Me.txtFechaVencimiento.Size = New System.Drawing.Size(58, 20)
-        Me.txtFechaVencimiento.TabIndex = 36
+        Me.txtFechaVencimiento.TabIndex = 5
         '
         'Label9
         '

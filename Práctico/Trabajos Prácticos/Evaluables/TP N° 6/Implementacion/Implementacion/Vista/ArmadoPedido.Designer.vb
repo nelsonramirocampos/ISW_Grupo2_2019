@@ -51,7 +51,7 @@ Partial Class ArmadoPedido
         Me.btnAgregar.Location = New System.Drawing.Point(287, 102)
         Me.btnAgregar.Name = "btnAgregar"
         Me.btnAgregar.Size = New System.Drawing.Size(75, 23)
-        Me.btnAgregar.TabIndex = 9
+        Me.btnAgregar.TabIndex = 3
         Me.btnAgregar.Text = "Agregar"
         Me.btnAgregar.UseVisualStyleBackColor = True
         '
@@ -62,7 +62,7 @@ Partial Class ArmadoPedido
         Me.cbProducto.Location = New System.Drawing.Point(69, 104)
         Me.cbProducto.Name = "cbProducto"
         Me.cbProducto.Size = New System.Drawing.Size(212, 21)
-        Me.cbProducto.TabIndex = 8
+        Me.cbProducto.TabIndex = 2
         '
         'cbComercios
         '
@@ -71,7 +71,7 @@ Partial Class ArmadoPedido
         Me.cbComercios.Location = New System.Drawing.Point(69, 77)
         Me.cbComercios.Name = "cbComercios"
         Me.cbComercios.Size = New System.Drawing.Size(212, 21)
-        Me.cbComercios.TabIndex = 7
+        Me.cbComercios.TabIndex = 1
         '
         'Label2
         '
@@ -182,7 +182,7 @@ Partial Class ArmadoPedido
         Me.btnSiguiente.Location = New System.Drawing.Point(439, 406)
         Me.btnSiguiente.Name = "btnSiguiente"
         Me.btnSiguiente.Size = New System.Drawing.Size(75, 23)
-        Me.btnSiguiente.TabIndex = 14
+        Me.btnSiguiente.TabIndex = 4
         Me.btnSiguiente.Text = "Siguiente"
         Me.btnSiguiente.UseVisualStyleBackColor = True
         '

@@ -41,7 +41,6 @@ Partial Class MuestraDatos
         Me.txtCalle = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.gbFormaPago = New System.Windows.Forms.GroupBox()
-        Me.txtFechaVencimiento = New System.Windows.Forms.MaskedTextBox()
         Me.txtCvc = New System.Windows.Forms.MaskedTextBox()
         Me.txtNroTarjeta = New System.Windows.Forms.MaskedTextBox()
         Me.txtVuelto = New System.Windows.Forms.TextBox()
@@ -58,12 +57,13 @@ Partial Class MuestraDatos
         Me.rbTarjeta = New System.Windows.Forms.RadioButton()
         Me.rbEfectivo = New System.Windows.Forms.RadioButton()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.txtFecha = New System.Windows.Forms.TextBox()
         Me.txtHora = New System.Windows.Forms.MaskedTextBox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.btnConfirmar = New System.Windows.Forms.Button()
         Me.btnCancelar = New System.Windows.Forms.Button()
-        Me.txtFecha = New System.Windows.Forms.TextBox()
+        Me.txtFechaVencimiento = New System.Windows.Forms.TextBox()
         Me.gbPedido.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.dgvDetallePedido, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -265,14 +265,6 @@ Partial Class MuestraDatos
         Me.gbFormaPago.TabStop = False
         Me.gbFormaPago.Text = "Forma de Pago"
         '
-        'txtFechaVencimiento
-        '
-        Me.txtFechaVencimiento.Location = New System.Drawing.Point(414, 92)
-        Me.txtFechaVencimiento.Mask = "00/0000"
-        Me.txtFechaVencimiento.Name = "txtFechaVencimiento"
-        Me.txtFechaVencimiento.Size = New System.Drawing.Size(58, 20)
-        Me.txtFechaVencimiento.TabIndex = 53
-        '
         'txtCvc
         '
         Me.txtCvc.Location = New System.Drawing.Point(522, 92)
@@ -430,6 +422,14 @@ Partial Class MuestraDatos
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Momento de Entrega"
         '
+        'txtFecha
+        '
+        Me.txtFecha.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.txtFecha.Location = New System.Drawing.Point(56, 20)
+        Me.txtFecha.Name = "txtFecha"
+        Me.txtFecha.Size = New System.Drawing.Size(73, 20)
+        Me.txtFecha.TabIndex = 54
+        '
         'txtHora
         '
         Me.txtHora.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
@@ -465,7 +465,7 @@ Partial Class MuestraDatos
         Me.btnConfirmar.Location = New System.Drawing.Point(302, 635)
         Me.btnConfirmar.Name = "btnConfirmar"
         Me.btnConfirmar.Size = New System.Drawing.Size(173, 23)
-        Me.btnConfirmar.TabIndex = 27
+        Me.btnConfirmar.TabIndex = 1
         Me.btnConfirmar.Text = "Confirmar"
         Me.btnConfirmar.UseVisualStyleBackColor = True
         '
@@ -474,17 +474,17 @@ Partial Class MuestraDatos
         Me.btnCancelar.Location = New System.Drawing.Point(123, 635)
         Me.btnCancelar.Name = "btnCancelar"
         Me.btnCancelar.Size = New System.Drawing.Size(173, 23)
-        Me.btnCancelar.TabIndex = 28
+        Me.btnCancelar.TabIndex = 2
         Me.btnCancelar.Text = "Cancelar"
         Me.btnCancelar.UseVisualStyleBackColor = True
         '
-        'txtFecha
+        'txtFechaVencimiento
         '
-        Me.txtFecha.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txtFecha.Location = New System.Drawing.Point(56, 20)
-        Me.txtFecha.Name = "txtFecha"
-        Me.txtFecha.Size = New System.Drawing.Size(73, 20)
-        Me.txtFecha.TabIndex = 54
+        Me.txtFechaVencimiento.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.txtFechaVencimiento.Location = New System.Drawing.Point(414, 92)
+        Me.txtFechaVencimiento.Name = "txtFechaVencimiento"
+        Me.txtFechaVencimiento.Size = New System.Drawing.Size(61, 20)
+        Me.txtFechaVencimiento.TabIndex = 55
         '
         'MuestraDatos
         '
@@ -526,7 +526,6 @@ Partial Class MuestraDatos
     Friend WithEvents txtCalle As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents gbFormaPago As GroupBox
-    Friend WithEvents txtFechaVencimiento As MaskedTextBox
     Friend WithEvents txtCvc As MaskedTextBox
     Friend WithEvents txtNroTarjeta As MaskedTextBox
     Friend WithEvents txtVuelto As TextBox
@@ -556,4 +555,5 @@ Partial Class MuestraDatos
     Friend WithEvents cCantidad As DataGridViewTextBoxColumn
     Friend WithEvents cSubTotal As DataGridViewTextBoxColumn
     Friend WithEvents txtFecha As TextBox
+    Friend WithEvents txtFechaVencimiento As TextBox
 End Class
