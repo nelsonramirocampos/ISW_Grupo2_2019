@@ -1,6 +1,6 @@
 ﻿Imports Implementacion
 
-Public Class ArmadoPedido
+Public Class frmArmadoPedido
     Private pedidoCompleto As Pedido
     Private comercios As List(Of Comercio)
 
@@ -28,26 +28,26 @@ Public Class ArmadoPedido
     End Sub
 
     Sub cargarComboboxComercio()
-        cbComercios.DisplayMember = "nombre"
-        cbComercios.ValueMember = "idComercio"
-        cbComercios.DataSource = comercios
+        cboComercios.DisplayMember = "nombre"
+        cboComercios.ValueMember = "idComercio"
+        cboComercios.DataSource = comercios
     End Sub
 
     Private Sub cargarComboboxProductos(x As List(Of Producto))
-        cbProducto.DisplayMember = "nombre"
-        cbProducto.ValueMember = "idProducto"
-        cbProducto.DataSource = x
+        cboProducto.DisplayMember = "nombre"
+        cboProducto.ValueMember = "idProducto"
+        cboProducto.DataSource = x
     End Sub
 
-    Private Sub cbComercios_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbComercios.SelectedIndexChanged
-        Dim x As Comercio = cbComercios.SelectedItem
+    Private Sub cbComercios_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboComercios.SelectedIndexChanged
+        Dim x As Comercio = cboComercios.SelectedItem
 
         cargarComboboxProductos(x.Productos1)
     End Sub
 
     Private Sub btnAgregar_Click(sender As Object, e As EventArgs) Handles btnAgregar.Click
-        Dim p As Producto = cbProducto.SelectedItem
-        Dim c As Comercio = cbComercios.SelectedItem
+        Dim p As Producto = cboProducto.SelectedItem
+        Dim c As Comercio = cboComercios.SelectedItem
 
         Dim exist As Boolean = False
 
@@ -78,10 +78,10 @@ Public Class ArmadoPedido
         txtTotal.Text = total
     End Sub
 
-    Private Sub cbProducto_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbProducto.SelectedIndexChanged
-        Dim x As Producto = cbProducto.SelectedItem
+    Private Sub cbProducto_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboProducto.SelectedIndexChanged
+        Dim x As Producto = cboProducto.SelectedItem
 
-        foto.Image = Image.FromFile(x.Imagen1)
+        imgFoto.Image = Image.FromFile(x.Imagen1)
     End Sub
 
     Private Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnCancelar.Click
@@ -92,8 +92,9 @@ Public Class ArmadoPedido
     End Sub
 
     Private Sub btnSiguiente_Click(sender As Object, e As EventArgs) Handles btnSiguiente.Click
-        If dgvDetallePedido.Rows.Count < 0 Then
+        If dgvDetallePedido.Rows.Count < 1 Then
             MessageBox.Show("Debe aunque sea cargar 1 (uno) producto")
+            Exit Sub
         Else
             For Each fila As DataGridViewRow In dgvDetallePedido.Rows
                 Dim com As Comercio = busquedaComercio(Integer.Parse(fila.Cells("cIdComercio").Value))
@@ -123,7 +124,7 @@ Public Class ArmadoPedido
         End If
 
         Me.Hide()
-        Dim frm As FormaPago = New FormaPago(pedidoCompleto)
+        Dim frm As frmFormaPago = New frmFormaPago(pedidoCompleto)
         frm.ShowDialog()
         Me.Close()
     End Sub

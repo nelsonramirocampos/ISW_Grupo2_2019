@@ -1,4 +1,4 @@
-﻿Public Class TiempoRecepcion
+﻿Public Class frmTiempoRecepcion
     Private pedidoCompleto As Pedido
 
     Public Sub New()
@@ -19,27 +19,27 @@
     Private Sub TiempoRecepcion_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Radio button Lo antes posible seleccionado por default
         rdoAntesPosible.Checked = True
-        txtFecha.Enabled = False
-        txtHora.Enabled = False
+        mtxFecha.Enabled = False
+        mtxHora.Enabled = False
     End Sub
 
     Private Sub rdoFechaHora_CheckedChanged(sender As Object, e As EventArgs) Handles rdoFechaHora.CheckedChanged
-        txtFecha.Enabled = True
-        txtHora.Enabled = True
+        mtxFecha.Enabled = True
+        mtxHora.Enabled = True
 
         'Hardcodeado: Agrega 30 min a la hora actual
-        txtFecha.Text = DateTime.Now.ToString("dd/MM/yyyy")
-        txtHora.Text = DateTime.Now.AddMinutes(30).ToShortTimeString()
+        mtxFecha.Text = DateTime.Now.ToString("dd/MM/yyyy")
+        mtxHora.Text = DateTime.Now.AddMinutes(30).ToShortTimeString()
     End Sub
 
     Private Sub rdoAntesPosible_CheckedChanged(sender As Object, e As EventArgs) Handles rdoAntesPosible.CheckedChanged
-        txtFecha.Enabled = False
-        txtHora.Enabled = False
-        txtFecha.Text = ""
-        txtHora.Text = ""
+        mtxFecha.Enabled = False
+        mtxHora.Enabled = False
+        mtxFecha.Text = ""
+        mtxHora.Text = ""
     End Sub
 
-    Private Sub txtHora_Leave(sender As Object, e As EventArgs) Handles txtHora.Leave
+    Private Sub txtHora_Leave(sender As Object, e As EventArgs) Handles mtxHora.Leave
 
     End Sub
 
@@ -52,8 +52,8 @@
 
         'Si el boton ingresar una fechaHora esta chequeado utilizo esa
         If rdoFechaHora.Checked Then
-            Dim fecha As String() = txtFecha.Text.Split(New Char() {"/"c})
-            Dim hora As String() = txtHora.Text.Split(New Char() {":"c})
+            Dim fecha As String() = mtxFecha.Text.Split(New Char() {"/"c})
+            Dim hora As String() = mtxHora.Text.Split(New Char() {":"c})
             fechaHora = New DateTime(Convert.ToInt32(fecha(2)), Convert.ToInt32(fecha(1)), Convert.ToInt32(fecha(0)), Convert.ToInt32(hora(0)), Convert.ToInt32(hora(1)), 59)
 
             'Comparo la fechaHora con la fechaHora válida
@@ -74,7 +74,7 @@
         'finalizacion()
 
         Me.Hide()
-        Dim frm As MuestraDatos = New MuestraDatos(Me.pedidoCompleto)
+        Dim frm As frmMuestraDatos = New frmMuestraDatos(Me.pedidoCompleto)
         frm.ShowDialog()
         Me.Close()
 

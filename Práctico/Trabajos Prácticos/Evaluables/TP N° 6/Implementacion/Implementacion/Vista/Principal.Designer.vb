@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Principal
+Partial Class frmPrincipal
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,34 +22,34 @@ Partial Class Principal
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.logo = New System.Windows.Forms.PictureBox()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.imgLogo = New System.Windows.Forms.PictureBox()
+        Me.msPrincipal = New System.Windows.Forms.MenuStrip()
         Me.PedidoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NuevoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        CType(Me.logo, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.MenuStrip1.SuspendLayout()
+        CType(Me.imgLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.msPrincipal.SuspendLayout()
         Me.SuspendLayout()
         '
-        'logo
+        'imgLogo
         '
-        Me.logo.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.logo.Image = Global.Implementacion.My.Resources.Resources.Delivery_eat
-        Me.logo.Location = New System.Drawing.Point(0, 24)
-        Me.logo.Name = "logo"
-        Me.logo.Size = New System.Drawing.Size(511, 361)
-        Me.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.logo.TabIndex = 1
-        Me.logo.TabStop = False
+        Me.imgLogo.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.imgLogo.Image = Global.Implementacion.My.Resources.Resources.Delivery_eat
+        Me.imgLogo.Location = New System.Drawing.Point(0, 24)
+        Me.imgLogo.Name = "imgLogo"
+        Me.imgLogo.Size = New System.Drawing.Size(511, 361)
+        Me.imgLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.imgLogo.TabIndex = 1
+        Me.imgLogo.TabStop = False
         '
-        'MenuStrip1
+        'msPrincipal
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PedidoToolStripMenuItem, Me.SalirToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(511, 24)
-        Me.MenuStrip1.TabIndex = 2
-        Me.MenuStrip1.Text = "MenuStrip1"
+        Me.msPrincipal.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PedidoToolStripMenuItem, Me.SalirToolStripMenuItem})
+        Me.msPrincipal.Location = New System.Drawing.Point(0, 0)
+        Me.msPrincipal.Name = "msPrincipal"
+        Me.msPrincipal.Size = New System.Drawing.Size(511, 24)
+        Me.msPrincipal.TabIndex = 2
+        Me.msPrincipal.Text = "MenuStrip1"
         '
         'PedidoToolStripMenuItem
         '
@@ -61,7 +61,7 @@ Partial Class Principal
         'NuevoToolStripMenuItem
         '
         Me.NuevoToolStripMenuItem.Name = "NuevoToolStripMenuItem"
-        Me.NuevoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.NuevoToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
         Me.NuevoToolStripMenuItem.Text = "Nuevo"
         '
         'SalirToolStripMenuItem
@@ -70,28 +70,28 @@ Partial Class Principal
         Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(41, 20)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
-        'Principal
+        'frmPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(511, 385)
-        Me.Controls.Add(Me.logo)
-        Me.Controls.Add(Me.MenuStrip1)
+        Me.Controls.Add(Me.imgLogo)
+        Me.Controls.Add(Me.msPrincipal)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
-        Me.MainMenuStrip = Me.MenuStrip1
-        Me.Name = "Principal"
+        Me.MainMenuStrip = Me.msPrincipal
+        Me.Name = "frmPrincipal"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Menu"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
-        CType(Me.logo, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
+        CType(Me.imgLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.msPrincipal.ResumeLayout(False)
+        Me.msPrincipal.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents logo As PictureBox
-    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents imgLogo As PictureBox
+    Friend WithEvents msPrincipal As MenuStrip
     Friend WithEvents PedidoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NuevoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem

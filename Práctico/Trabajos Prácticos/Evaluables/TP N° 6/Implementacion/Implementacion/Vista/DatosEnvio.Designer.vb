@@ -1,7 +1,7 @@
 ﻿Imports Implementacion
 
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class DatosEnvio
+Partial Class frmDatosEnvio
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -24,39 +24,39 @@ Partial Class DatosEnvio
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.lbl5 = New System.Windows.Forms.Label()
+        Me.lbl4 = New System.Windows.Forms.Label()
         Me.txtReferencia = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.lbl3 = New System.Windows.Forms.Label()
         Me.txtNro = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.lbl2 = New System.Windows.Forms.Label()
         Me.txtCalle = New System.Windows.Forms.TextBox()
-        Me.cbCiudades = New System.Windows.Forms.ComboBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
+        Me.cboCiudades = New System.Windows.Forms.ComboBox()
+        Me.lbl1 = New System.Windows.Forms.Label()
+        Me.lbl6 = New System.Windows.Forms.Label()
         Me.btnCancelar = New System.Windows.Forms.Button()
         Me.btnSiguiente = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Label5
+        'lbl5
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label5.Location = New System.Drawing.Point(12, 280)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(222, 13)
-        Me.Label5.TabIndex = 17
-        Me.Label5.Text = "Los campos con * (asterisco) son obligatorios."
+        Me.lbl5.AutoSize = True
+        Me.lbl5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl5.Location = New System.Drawing.Point(12, 280)
+        Me.lbl5.Name = "lbl5"
+        Me.lbl5.Size = New System.Drawing.Size(222, 13)
+        Me.lbl5.TabIndex = 17
+        Me.lbl5.Text = "Los campos con * (asterisco) son obligatorios."
         '
-        'Label4
+        'lbl4
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label4.Location = New System.Drawing.Point(12, 148)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(59, 13)
-        Me.Label4.TabIndex = 16
-        Me.Label4.Text = "Referencia"
+        Me.lbl4.AutoSize = True
+        Me.lbl4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl4.Location = New System.Drawing.Point(12, 148)
+        Me.lbl4.Name = "lbl4"
+        Me.lbl4.Size = New System.Drawing.Size(59, 13)
+        Me.lbl4.TabIndex = 16
+        Me.lbl4.Text = "Referencia"
         '
         'txtReferencia
         '
@@ -65,17 +65,17 @@ Partial Class DatosEnvio
         Me.txtReferencia.Multiline = True
         Me.txtReferencia.Name = "txtReferencia"
         Me.txtReferencia.Size = New System.Drawing.Size(219, 122)
-        Me.txtReferencia.TabIndex = 4
+        Me.txtReferencia.TabIndex = 15
         '
-        'Label3
+        'lbl3
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label3.Location = New System.Drawing.Point(12, 118)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(44, 13)
-        Me.Label3.TabIndex = 14
-        Me.Label3.Text = "Ciudad*"
+        Me.lbl3.AutoSize = True
+        Me.lbl3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl3.Location = New System.Drawing.Point(12, 118)
+        Me.lbl3.Name = "lbl3"
+        Me.lbl3.Size = New System.Drawing.Size(44, 13)
+        Me.lbl3.TabIndex = 14
+        Me.lbl3.Text = "Ciudad*"
         '
         'txtNro
         '
@@ -83,17 +83,17 @@ Partial Class DatosEnvio
         Me.txtNro.Location = New System.Drawing.Point(77, 89)
         Me.txtNro.Name = "txtNro"
         Me.txtNro.Size = New System.Drawing.Size(51, 20)
-        Me.txtNro.TabIndex = 2
+        Me.txtNro.TabIndex = 13
         '
-        'Label2
+        'lbl2
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label2.Location = New System.Drawing.Point(12, 92)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(31, 13)
-        Me.Label2.TabIndex = 12
-        Me.Label2.Text = "Nro.*"
+        Me.lbl2.AutoSize = True
+        Me.lbl2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl2.Location = New System.Drawing.Point(12, 92)
+        Me.lbl2.Name = "lbl2"
+        Me.lbl2.Size = New System.Drawing.Size(31, 13)
+        Me.lbl2.TabIndex = 12
+        Me.lbl2.Text = "Nro.*"
         '
         'txtCalle
         '
@@ -101,37 +101,37 @@ Partial Class DatosEnvio
         Me.txtCalle.Location = New System.Drawing.Point(77, 63)
         Me.txtCalle.Name = "txtCalle"
         Me.txtCalle.Size = New System.Drawing.Size(219, 20)
-        Me.txtCalle.TabIndex = 1
+        Me.txtCalle.TabIndex = 11
         '
-        'cbCiudades
+        'cboCiudades
         '
-        Me.cbCiudades.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.cbCiudades.FormattingEnabled = True
-        Me.cbCiudades.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.cbCiudades.Location = New System.Drawing.Point(77, 115)
-        Me.cbCiudades.Name = "cbCiudades"
-        Me.cbCiudades.Size = New System.Drawing.Size(121, 21)
-        Me.cbCiudades.TabIndex = 3
+        Me.cboCiudades.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.cboCiudades.FormattingEnabled = True
+        Me.cboCiudades.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.cboCiudades.Location = New System.Drawing.Point(77, 115)
+        Me.cboCiudades.Name = "cboCiudades"
+        Me.cboCiudades.Size = New System.Drawing.Size(121, 21)
+        Me.cboCiudades.TabIndex = 10
         '
-        'Label1
+        'lbl1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label1.Location = New System.Drawing.Point(12, 66)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(34, 13)
-        Me.Label1.TabIndex = 9
-        Me.Label1.Text = "Calle*"
+        Me.lbl1.AutoSize = True
+        Me.lbl1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl1.Location = New System.Drawing.Point(12, 66)
+        Me.lbl1.Name = "lbl1"
+        Me.lbl1.Size = New System.Drawing.Size(34, 13)
+        Me.lbl1.TabIndex = 9
+        Me.lbl1.Text = "Calle*"
         '
-        'Label6
+        'lbl6
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(32, 9)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(247, 37)
-        Me.Label6.TabIndex = 18
-        Me.Label6.Text = "Datos de Envio"
+        Me.lbl6.AutoSize = True
+        Me.lbl6.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl6.Location = New System.Drawing.Point(32, 9)
+        Me.lbl6.Name = "lbl6"
+        Me.lbl6.Size = New System.Drawing.Size(247, 37)
+        Me.lbl6.TabIndex = 18
+        Me.lbl6.Text = "Datos de Envio"
         '
         'btnCancelar
         '
@@ -147,29 +147,29 @@ Partial Class DatosEnvio
         Me.btnSiguiente.Location = New System.Drawing.Point(221, 311)
         Me.btnSiguiente.Name = "btnSiguiente"
         Me.btnSiguiente.Size = New System.Drawing.Size(75, 23)
-        Me.btnSiguiente.TabIndex = 5
+        Me.btnSiguiente.TabIndex = 19
         Me.btnSiguiente.Text = "Siguiente"
         Me.btnSiguiente.UseVisualStyleBackColor = True
         '
-        'DatosEnvio
+        'frmDatosEnvio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(309, 344)
         Me.Controls.Add(Me.btnCancelar)
         Me.Controls.Add(Me.btnSiguiente)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.lbl6)
+        Me.Controls.Add(Me.lbl5)
+        Me.Controls.Add(Me.lbl4)
         Me.Controls.Add(Me.txtReferencia)
-        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.lbl3)
         Me.Controls.Add(Me.txtNro)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.lbl2)
         Me.Controls.Add(Me.txtCalle)
-        Me.Controls.Add(Me.cbCiudades)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.cboCiudades)
+        Me.Controls.Add(Me.lbl1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
-        Me.Name = "DatosEnvio"
+        Me.Name = "frmDatosEnvio"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Datos Envio"
         Me.ResumeLayout(False)
@@ -177,16 +177,16 @@ Partial Class DatosEnvio
 
     End Sub
 
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label4 As Label
+    Friend WithEvents lbl5 As Label
+    Friend WithEvents lbl4 As Label
     Friend WithEvents txtReferencia As TextBox
-    Friend WithEvents Label3 As Label
+    Friend WithEvents lbl3 As Label
     Friend WithEvents txtNro As TextBox
-    Friend WithEvents Label2 As Label
+    Friend WithEvents lbl2 As Label
     Friend WithEvents txtCalle As TextBox
-    Friend WithEvents cbCiudades As ComboBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label6 As Label
+    Friend WithEvents cboCiudades As ComboBox
+    Friend WithEvents lbl1 As Label
+    Friend WithEvents lbl6 As Label
     Friend WithEvents btnCancelar As Button
     Friend WithEvents btnSiguiente As Button
 End Class

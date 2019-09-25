@@ -1,4 +1,4 @@
-﻿Public Class DatosEnvio
+﻿Public Class frmDatosEnvio
     Private pedidoCompleto As Pedido
 
     Public Sub New()
@@ -20,9 +20,14 @@
             Exit Sub
         End If
 
+        If String.IsNullOrWhiteSpace(cboCiudades.Text) Then
+            MessageBox.Show("Debe seleccionar una ciudad")
+            Exit Sub
+        End If
+
         Dim calle As String = txtCalle.Text
         Dim nro As Integer = Integer.Parse(txtNro.Text)
-        Dim ciudad As String = cbCiudades.Text
+        Dim ciudad As String = cboCiudades.Text
         Dim referencia As String = txtReferencia.Text
 
         Dim dire As Direccion = New Direccion(calle, nro, ciudad, referencia)
@@ -30,7 +35,7 @@
 
 
         Me.Hide()
-        Dim frm As TiempoRecepcion = New TiempoRecepcion(pedidoCompleto)
+        Dim frm As frmTiempoRecepcion = New frmTiempoRecepcion(pedidoCompleto)
         frm.ShowDialog()
         Me.Close()
     End Sub
@@ -45,13 +50,13 @@
     Private Sub DatosEnvio_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         ' Impide que el usuario escriba en el combobox
-        cbCiudades.DropDownStyle = ComboBoxStyle.DropDownList
+        cboCiudades.DropDownStyle = ComboBoxStyle.DropDownList
 
         'Ciudades hardcodeadas
         Dim columns As String() = {"Córdoba", "Buenos Aires", "Rosario"}
-        cbCiudades.MaxDropDownItems = columns.Length
+        cboCiudades.MaxDropDownItems = columns.Length
         For Each column As String In columns
-            cbCiudades.Items.Add(column)
+            cboCiudades.Items.Add(column)
         Next
     End Sub
 

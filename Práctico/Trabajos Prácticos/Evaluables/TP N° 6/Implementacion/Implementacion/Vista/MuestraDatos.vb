@@ -1,4 +1,4 @@
-﻿Public Class MuestraDatos
+﻿Public Class frmMuestraDatos
     Private pedidoCompleto As Pedido
 
     Public Sub New()
@@ -35,24 +35,24 @@
 
 
         txtFecha.Text = Me.pedidoCompleto.FechaHora1.FechaHora1.Date
-        txtHora.Text = Me.pedidoCompleto.FechaHora1.FechaHora1.TimeOfDay.ToString
+        mtxHora.Text = Me.pedidoCompleto.FechaHora1.FechaHora1.TimeOfDay.ToString
 
 
         If TypeOf Me.pedidoCompleto.TipoPago1 Is Efectivo Then
-            rbEfectivo.Checked = True
+            rdoEfectivo.Checked = True
 
             Dim pago As Efectivo = Me.pedidoCompleto.TipoPago1
             txtMonto.Text = pago.MontoPago1
             txtVuelto.Text = Math.Abs(pago.saldoRestante)
         ElseIf TypeOf Me.pedidoCompleto.TipoPago1 Is Tarjeta Then
-            rbTarjeta.Checked = True
+            rdoTarjeta.Checked = True
 
             Dim pago As Tarjeta = Me.pedidoCompleto.TipoPago1
             txtNombreTitular.Text = pago.NombreTitular1
             txtApellidoTitular.Text = pago.ApellidoTitular1
-            txtNroTarjeta.Text = pago.NroTarjeta1
-            txtFechaVencimiento.Text = pago.FechaVencimiento1.Month.ToString + "/" + pago.FechaVencimiento1.Year.ToString
-            txtCvc.Text = pago.Cvc1
+            mtxNroTarjeta.Text = pago.NroTarjeta1
+            mtxFechaVencimiento.Text = pago.FechaVencimiento1
+            mtxCvc.Text = pago.Cvc1
         End If
 
 

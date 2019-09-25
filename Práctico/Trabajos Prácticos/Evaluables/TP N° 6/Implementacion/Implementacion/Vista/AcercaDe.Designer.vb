@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class AcercaDe
+Partial Class frmAcercaDe
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -24,12 +24,12 @@ Partial Class AcercaDe
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'AcercaDe
+        'frmAcercaDe
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(492, 154)
-        Me.Name = "AcercaDe"
+        Me.Name = "frmAcercaDe"
         Me.Text = "AcercaDe"
         Me.ResumeLayout(False)
 

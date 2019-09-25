@@ -1,6 +1,6 @@
 ﻿Imports Implementacion
 
-Public Class Principal
+Public Class frmPrincipal
     Private comercios As List(Of Comercio)
 
     Public Property Comercios1 As List(Of Comercio)
@@ -36,11 +36,11 @@ Public Class Principal
 
         Dim pedidoCompleto As Pedido = New Pedido()
 
-        Dim frm As ArmadoPedido = New ArmadoPedido(pedidoCompleto)
+        Dim frm As frmArmadoPedido = New frmArmadoPedido(pedidoCompleto)
         frm.cargarComercios(comercios)
         frm.ShowDialog()
 
-        Me.ShowDialog()
+        Me.Visible = True
     End Sub
 
     Private Sub SalirToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SalirToolStripMenuItem.Click

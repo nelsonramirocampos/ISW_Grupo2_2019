@@ -1,4 +1,4 @@
-﻿Public Class FormaPago
+﻿Public Class frmFormaPago
     Private pedidoCompleto As Pedido
 
     Public Sub New()
@@ -25,7 +25,7 @@
     Private Sub btnSiguiente_Click(sender As Object, e As EventArgs) Handles btnSiguiente.Click
         Dim pago As TipoPago
 
-        If rbEfectivo.Checked = True Then
+        If rdoEfectivo.Checked = True Then
             If String.IsNullOrEmpty(txtMonto.Text) Then
                 MessageBox.Show("Debe ingresar el monto a abonar")
                 Exit Sub
@@ -41,11 +41,11 @@
 
             pago = New Efectivo(montoTotal, monto)
         Else
-            If String.IsNullOrEmpty(txtNroTarjeta.Text) Then
+            If String.IsNullOrEmpty(mtxNroTarjeta.Text) Then
                 MessageBox.Show("Debe ingresar el numero de tarjeta")
                 Exit Sub
             Else
-                If txtNroTarjeta.Text.Count < 16 Then
+                If mtxNroTarjeta.Text.Count < 16 Then
                     MessageBox.Show("El numero de tarjeta debe ser de 16 digitos")
                     Exit Sub
                 End If
@@ -58,38 +58,43 @@
                 MessageBox.Show("Debe ingresar el apellido del titular de la tarjeta")
                 Exit Sub
             End If
-            If txtFechaVencimiento.MaskCompleted = False Then
+            If mtxFechaVencimiento.MaskCompleted = False Then
                 MessageBox.Show("Debe ingresar la fecha de vencimiento de la tarjeta")
                 Exit Sub
             Else
-                Dim fecha As Date = Date.Parse(txtFechaVencimiento.Text)
-                If txtFechaVencimiento.Text.Substring(0, 2) > 12 And txtFechaVencimiento.Text.Substring(0, 2) < 1 Then
+                Dim fecha As Date = Date.Parse(mtxFechaVencimiento.Text)
+                If mtxFechaVencimiento.Text.Substring(0, 2) > 12 And mtxFechaVencimiento.Text.Substring(0, 2) < 1 Then
                     MessageBox.Show("El mes de la fecha es incorrecto")
                     Exit Sub
                 End If
-                If txtFechaVencimiento.Text.Substring(3) < Now.Year Then
+                If mtxFechaVencimiento.Text.Substring(3) < Now.Year Then
                     MessageBox.Show("El año de la fecha es incorrecta")
                     Exit Sub
                 End If
 
             End If
-            If String.IsNullOrEmpty(txtCvc.Text) Then
+            If String.IsNullOrEmpty(mtxCvc.Text) Then
                 MessageBox.Show("Debe ingresar el cvc de la tarjeta")
                 Exit Sub
             Else
-                If txtCvc.Text.Count < 3 Then
+                If mtxCvc.Text.Count < 3 Then
                     MessageBox.Show("El cvc debe ser de 3 digitos")
                     Exit Sub
                 End If
             End If
 
+            Dim auxiliar As String = mtxNroTarjeta.Text.Substring(0, 1)
+            If auxiliar <> "4" Then
+                MessageBox.Show("Solo se acepta tarjeta Visa")
+                Exit Sub
+            End If
 
             Dim montoTotal As Decimal = Decimal.Parse(txtMontoTotal.Text)
-            Dim nroTarjeta As String = txtNroTarjeta.Text
+            Dim nroTarjeta As String = mtxNroTarjeta.Text
             Dim nombreTitular As String = txtNombreTitular.Text
             Dim apellidoTitular As String = txtApellidoTitular.Text
-            Dim fechaVencimiento As Date = Date.Parse(txtFechaVencimiento.Text)
-            Dim cvc As Integer = Integer.Parse(txtCvc.Text)
+            Dim fechaVencimiento As Date = Date.Parse(mtxFechaVencimiento.Text)
+            Dim cvc As Integer = Integer.Parse(mtxCvc.Text)
 
             pago = New Tarjeta(montoTotal, nroTarjeta, nombreTitular, apellidoTitular, fechaVencimiento, cvc)
         End If
@@ -100,7 +105,7 @@
 
 
         Me.Hide()
-        Dim frm As DatosEnvio = New DatosEnvio(Me.pedidoCompleto)
+        Dim frm As frmDatosEnvio = New frmDatosEnvio(Me.pedidoCompleto)
         frm.ShowDialog()
         Me.Close()
     End Sub
@@ -140,35 +145,35 @@
         SoloNumeros(e)
     End Sub
 
-    Private Sub rbTarjeta_CheckedChanged(sender As Object, e As EventArgs) Handles rbTarjeta.CheckedChanged
+    Private Sub rbTarjeta_CheckedChanged(sender As Object, e As EventArgs) Handles rdoTarjeta.CheckedChanged
         txtMonto.Text = ""
         txtMonto.Enabled = False
 
-        txtNroTarjeta.Text = ""
-        txtNroTarjeta.Enabled = True
+        mtxNroTarjeta.Text = ""
+        mtxNroTarjeta.Enabled = True
         txtNombreTitular.Text = ""
         txtNombreTitular.Enabled = True
         txtApellidoTitular.Text = ""
         txtApellidoTitular.Enabled = True
-        txtFechaVencimiento.Text = ""
-        txtFechaVencimiento.Enabled = True
-        txtCvc.Text = ""
-        txtCvc.Enabled = True
+        mtxFechaVencimiento.Text = ""
+        mtxFechaVencimiento.Enabled = True
+        mtxCvc.Text = ""
+        mtxCvc.Enabled = True
     End Sub
 
-    Private Sub rbEfectivo_CheckedChanged(sender As Object, e As EventArgs) Handles rbEfectivo.CheckedChanged
+    Private Sub rbEfectivo_CheckedChanged(sender As Object, e As EventArgs) Handles rdoEfectivo.CheckedChanged
         txtMonto.Text = ""
         txtMonto.Enabled = True
 
-        txtNroTarjeta.Text = ""
-        txtNroTarjeta.Enabled = False
+        mtxNroTarjeta.Text = ""
+        mtxNroTarjeta.Enabled = False
         txtNombreTitular.Text = ""
         txtNombreTitular.Enabled = False
         txtApellidoTitular.Text = ""
         txtApellidoTitular.Enabled = False
-        txtFechaVencimiento.Text = ""
-        txtFechaVencimiento.Enabled = False
-        txtCvc.Text = ""
-        txtCvc.Enabled = False
+        mtxFechaVencimiento.Text = ""
+        mtxFechaVencimiento.Enabled = False
+        mtxCvc.Text = ""
+        mtxCvc.Enabled = False
     End Sub
 End Class

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class MuestraDatos
+Partial Class frmMuestraDatos
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -24,58 +24,58 @@ Partial Class MuestraDatos
     Private Sub InitializeComponent()
         Me.gbPedido = New System.Windows.Forms.GroupBox()
         Me.txtTotal = New System.Windows.Forms.TextBox()
-        Me.Label9 = New System.Windows.Forms.Label()
+        Me.lbl9 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.dgvDetallePedido = New System.Windows.Forms.DataGridView()
         Me.cProducto = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.cPrecio = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.cCantidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.cSubTotal = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.gbDatosEnvio = New System.Windows.Forms.GroupBox()
+        Me.grpDatosEnvio = New System.Windows.Forms.GroupBox()
         Me.txtCiudad = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.lbl4 = New System.Windows.Forms.Label()
         Me.txtReferencia = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.lbl3 = New System.Windows.Forms.Label()
         Me.txtNro = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.lbl2 = New System.Windows.Forms.Label()
         Me.txtCalle = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.gbFormaPago = New System.Windows.Forms.GroupBox()
-        Me.txtCvc = New System.Windows.Forms.MaskedTextBox()
-        Me.txtNroTarjeta = New System.Windows.Forms.MaskedTextBox()
+        Me.lbl1 = New System.Windows.Forms.Label()
+        Me.grpFormaPago = New System.Windows.Forms.GroupBox()
+        Me.mtxFechaVencimiento = New System.Windows.Forms.MaskedTextBox()
+        Me.mtxCvc = New System.Windows.Forms.MaskedTextBox()
+        Me.mtxNroTarjeta = New System.Windows.Forms.MaskedTextBox()
         Me.txtVuelto = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.lbl8 = New System.Windows.Forms.Label()
+        Me.lbl6 = New System.Windows.Forms.Label()
+        Me.lbl5 = New System.Windows.Forms.Label()
         Me.txtApellidoTitular = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
+        Me.lbl7 = New System.Windows.Forms.Label()
         Me.txtNombreTitular = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
+        Me.lbl10 = New System.Windows.Forms.Label()
+        Me.lbl11 = New System.Windows.Forms.Label()
         Me.txtMonto = New System.Windows.Forms.TextBox()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.rbTarjeta = New System.Windows.Forms.RadioButton()
-        Me.rbEfectivo = New System.Windows.Forms.RadioButton()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.lbl12 = New System.Windows.Forms.Label()
+        Me.rdoTarjeta = New System.Windows.Forms.RadioButton()
+        Me.rdoEfectivo = New System.Windows.Forms.RadioButton()
+        Me.grpEntrega = New System.Windows.Forms.GroupBox()
         Me.txtFecha = New System.Windows.Forms.TextBox()
-        Me.txtHora = New System.Windows.Forms.MaskedTextBox()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
+        Me.mtxHora = New System.Windows.Forms.MaskedTextBox()
+        Me.lbl13 = New System.Windows.Forms.Label()
+        Me.lbl14 = New System.Windows.Forms.Label()
         Me.btnConfirmar = New System.Windows.Forms.Button()
         Me.btnCancelar = New System.Windows.Forms.Button()
-        Me.txtFechaVencimiento = New System.Windows.Forms.TextBox()
         Me.gbPedido.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.dgvDetallePedido, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.gbDatosEnvio.SuspendLayout()
-        Me.gbFormaPago.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
+        Me.grpDatosEnvio.SuspendLayout()
+        Me.grpFormaPago.SuspendLayout()
+        Me.grpEntrega.SuspendLayout()
         Me.SuspendLayout()
         '
         'gbPedido
         '
         Me.gbPedido.Controls.Add(Me.txtTotal)
-        Me.gbPedido.Controls.Add(Me.Label9)
+        Me.gbPedido.Controls.Add(Me.lbl9)
         Me.gbPedido.Controls.Add(Me.Panel1)
         Me.gbPedido.Enabled = False
         Me.gbPedido.Location = New System.Drawing.Point(15, 335)
@@ -94,14 +94,14 @@ Partial Class MuestraDatos
         Me.txtTotal.TabIndex = 14
         Me.txtTotal.Text = "0.0"
         '
-        'Label9
+        'lbl9
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(413, 264)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(43, 13)
-        Me.Label9.TabIndex = 13
-        Me.Label9.Text = "Total: $"
+        Me.lbl9.AutoSize = True
+        Me.lbl9.Location = New System.Drawing.Point(413, 264)
+        Me.lbl9.Name = "lbl9"
+        Me.lbl9.Size = New System.Drawing.Size(43, 13)
+        Me.lbl9.TabIndex = 13
+        Me.lbl9.Text = "Total: $"
         '
         'Panel1
         '
@@ -148,23 +148,23 @@ Partial Class MuestraDatos
         Me.cSubTotal.Name = "cSubTotal"
         Me.cSubTotal.ReadOnly = True
         '
-        'gbDatosEnvio
+        'grpDatosEnvio
         '
-        Me.gbDatosEnvio.Controls.Add(Me.txtCiudad)
-        Me.gbDatosEnvio.Controls.Add(Me.Label4)
-        Me.gbDatosEnvio.Controls.Add(Me.txtReferencia)
-        Me.gbDatosEnvio.Controls.Add(Me.Label3)
-        Me.gbDatosEnvio.Controls.Add(Me.txtNro)
-        Me.gbDatosEnvio.Controls.Add(Me.Label2)
-        Me.gbDatosEnvio.Controls.Add(Me.txtCalle)
-        Me.gbDatosEnvio.Controls.Add(Me.Label1)
-        Me.gbDatosEnvio.Enabled = False
-        Me.gbDatosEnvio.Location = New System.Drawing.Point(15, 12)
-        Me.gbDatosEnvio.Name = "gbDatosEnvio"
-        Me.gbDatosEnvio.Size = New System.Drawing.Size(579, 128)
-        Me.gbDatosEnvio.TabIndex = 2
-        Me.gbDatosEnvio.TabStop = False
-        Me.gbDatosEnvio.Text = "Datos Envio"
+        Me.grpDatosEnvio.Controls.Add(Me.txtCiudad)
+        Me.grpDatosEnvio.Controls.Add(Me.lbl4)
+        Me.grpDatosEnvio.Controls.Add(Me.txtReferencia)
+        Me.grpDatosEnvio.Controls.Add(Me.lbl3)
+        Me.grpDatosEnvio.Controls.Add(Me.txtNro)
+        Me.grpDatosEnvio.Controls.Add(Me.lbl2)
+        Me.grpDatosEnvio.Controls.Add(Me.txtCalle)
+        Me.grpDatosEnvio.Controls.Add(Me.lbl1)
+        Me.grpDatosEnvio.Enabled = False
+        Me.grpDatosEnvio.Location = New System.Drawing.Point(15, 12)
+        Me.grpDatosEnvio.Name = "grpDatosEnvio"
+        Me.grpDatosEnvio.Size = New System.Drawing.Size(579, 128)
+        Me.grpDatosEnvio.TabIndex = 2
+        Me.grpDatosEnvio.TabStop = False
+        Me.grpDatosEnvio.Text = "Datos Envio"
         '
         'txtCiudad
         '
@@ -174,15 +174,15 @@ Partial Class MuestraDatos
         Me.txtCiudad.Size = New System.Drawing.Size(149, 20)
         Me.txtCiudad.TabIndex = 25
         '
-        'Label4
+        'lbl4
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label4.Location = New System.Drawing.Point(10, 48)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(59, 13)
-        Me.Label4.TabIndex = 24
-        Me.Label4.Text = "Referencia"
+        Me.lbl4.AutoSize = True
+        Me.lbl4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl4.Location = New System.Drawing.Point(10, 48)
+        Me.lbl4.Name = "lbl4"
+        Me.lbl4.Size = New System.Drawing.Size(59, 13)
+        Me.lbl4.TabIndex = 24
+        Me.lbl4.Text = "Referencia"
         '
         'txtReferencia
         '
@@ -193,15 +193,15 @@ Partial Class MuestraDatos
         Me.txtReferencia.Size = New System.Drawing.Size(492, 73)
         Me.txtReferencia.TabIndex = 23
         '
-        'Label3
+        'lbl3
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label3.Location = New System.Drawing.Point(9, 22)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(40, 13)
-        Me.Label3.TabIndex = 22
-        Me.Label3.Text = "Ciudad"
+        Me.lbl3.AutoSize = True
+        Me.lbl3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl3.Location = New System.Drawing.Point(9, 22)
+        Me.lbl3.Name = "lbl3"
+        Me.lbl3.Size = New System.Drawing.Size(40, 13)
+        Me.lbl3.TabIndex = 22
+        Me.lbl3.Text = "Ciudad"
         '
         'txtNro
         '
@@ -211,15 +211,15 @@ Partial Class MuestraDatos
         Me.txtNro.Size = New System.Drawing.Size(51, 20)
         Me.txtNro.TabIndex = 21
         '
-        'Label2
+        'lbl2
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label2.Location = New System.Drawing.Point(483, 22)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(27, 13)
-        Me.Label2.TabIndex = 20
-        Me.Label2.Text = "Nro."
+        Me.lbl2.AutoSize = True
+        Me.lbl2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl2.Location = New System.Drawing.Point(483, 22)
+        Me.lbl2.Name = "lbl2"
+        Me.lbl2.Size = New System.Drawing.Size(27, 13)
+        Me.lbl2.TabIndex = 20
+        Me.lbl2.Text = "Nro."
         '
         'txtCalle
         '
@@ -229,57 +229,65 @@ Partial Class MuestraDatos
         Me.txtCalle.Size = New System.Drawing.Size(219, 20)
         Me.txtCalle.TabIndex = 19
         '
-        'Label1
+        'lbl1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label1.Location = New System.Drawing.Point(220, 22)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(30, 13)
-        Me.Label1.TabIndex = 17
-        Me.Label1.Text = "Calle"
+        Me.lbl1.AutoSize = True
+        Me.lbl1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl1.Location = New System.Drawing.Point(220, 22)
+        Me.lbl1.Name = "lbl1"
+        Me.lbl1.Size = New System.Drawing.Size(30, 13)
+        Me.lbl1.TabIndex = 17
+        Me.lbl1.Text = "Calle"
         '
-        'gbFormaPago
+        'grpFormaPago
         '
-        Me.gbFormaPago.Controls.Add(Me.txtFechaVencimiento)
-        Me.gbFormaPago.Controls.Add(Me.txtCvc)
-        Me.gbFormaPago.Controls.Add(Me.txtNroTarjeta)
-        Me.gbFormaPago.Controls.Add(Me.txtVuelto)
-        Me.gbFormaPago.Controls.Add(Me.Label8)
-        Me.gbFormaPago.Controls.Add(Me.Label6)
-        Me.gbFormaPago.Controls.Add(Me.Label5)
-        Me.gbFormaPago.Controls.Add(Me.txtApellidoTitular)
-        Me.gbFormaPago.Controls.Add(Me.Label7)
-        Me.gbFormaPago.Controls.Add(Me.txtNombreTitular)
-        Me.gbFormaPago.Controls.Add(Me.Label10)
-        Me.gbFormaPago.Controls.Add(Me.Label11)
-        Me.gbFormaPago.Controls.Add(Me.txtMonto)
-        Me.gbFormaPago.Controls.Add(Me.Label12)
-        Me.gbFormaPago.Controls.Add(Me.rbTarjeta)
-        Me.gbFormaPago.Controls.Add(Me.rbEfectivo)
-        Me.gbFormaPago.Enabled = False
-        Me.gbFormaPago.Location = New System.Drawing.Point(15, 203)
-        Me.gbFormaPago.Name = "gbFormaPago"
-        Me.gbFormaPago.Size = New System.Drawing.Size(579, 126)
-        Me.gbFormaPago.TabIndex = 26
-        Me.gbFormaPago.TabStop = False
-        Me.gbFormaPago.Text = "Forma de Pago"
+        Me.grpFormaPago.Controls.Add(Me.mtxFechaVencimiento)
+        Me.grpFormaPago.Controls.Add(Me.mtxCvc)
+        Me.grpFormaPago.Controls.Add(Me.mtxNroTarjeta)
+        Me.grpFormaPago.Controls.Add(Me.txtVuelto)
+        Me.grpFormaPago.Controls.Add(Me.lbl8)
+        Me.grpFormaPago.Controls.Add(Me.lbl6)
+        Me.grpFormaPago.Controls.Add(Me.lbl5)
+        Me.grpFormaPago.Controls.Add(Me.txtApellidoTitular)
+        Me.grpFormaPago.Controls.Add(Me.lbl7)
+        Me.grpFormaPago.Controls.Add(Me.txtNombreTitular)
+        Me.grpFormaPago.Controls.Add(Me.lbl10)
+        Me.grpFormaPago.Controls.Add(Me.lbl11)
+        Me.grpFormaPago.Controls.Add(Me.txtMonto)
+        Me.grpFormaPago.Controls.Add(Me.lbl12)
+        Me.grpFormaPago.Controls.Add(Me.rdoTarjeta)
+        Me.grpFormaPago.Controls.Add(Me.rdoEfectivo)
+        Me.grpFormaPago.Enabled = False
+        Me.grpFormaPago.Location = New System.Drawing.Point(15, 203)
+        Me.grpFormaPago.Name = "grpFormaPago"
+        Me.grpFormaPago.Size = New System.Drawing.Size(579, 126)
+        Me.grpFormaPago.TabIndex = 26
+        Me.grpFormaPago.TabStop = False
+        Me.grpFormaPago.Text = "Forma de Pago"
         '
-        'txtCvc
+        'mtxFechaVencimiento
         '
-        Me.txtCvc.Location = New System.Drawing.Point(522, 92)
-        Me.txtCvc.Mask = "999"
-        Me.txtCvc.Name = "txtCvc"
-        Me.txtCvc.Size = New System.Drawing.Size(42, 20)
-        Me.txtCvc.TabIndex = 52
+        Me.mtxFechaVencimiento.Location = New System.Drawing.Point(414, 92)
+        Me.mtxFechaVencimiento.Mask = "00/0000"
+        Me.mtxFechaVencimiento.Name = "mtxFechaVencimiento"
+        Me.mtxFechaVencimiento.Size = New System.Drawing.Size(58, 20)
+        Me.mtxFechaVencimiento.TabIndex = 53
         '
-        'txtNroTarjeta
+        'mtxCvc
         '
-        Me.txtNroTarjeta.Location = New System.Drawing.Point(186, 92)
-        Me.txtNroTarjeta.Mask = "9999999999999999"
-        Me.txtNroTarjeta.Name = "txtNroTarjeta"
-        Me.txtNroTarjeta.Size = New System.Drawing.Size(109, 20)
-        Me.txtNroTarjeta.TabIndex = 51
+        Me.mtxCvc.Location = New System.Drawing.Point(522, 92)
+        Me.mtxCvc.Mask = "999"
+        Me.mtxCvc.Name = "mtxCvc"
+        Me.mtxCvc.Size = New System.Drawing.Size(42, 20)
+        Me.mtxCvc.TabIndex = 52
+        '
+        'mtxNroTarjeta
+        '
+        Me.mtxNroTarjeta.Location = New System.Drawing.Point(186, 92)
+        Me.mtxNroTarjeta.Mask = "9999999999999999"
+        Me.mtxNroTarjeta.Name = "mtxNroTarjeta"
+        Me.mtxNroTarjeta.Size = New System.Drawing.Size(109, 20)
+        Me.mtxNroTarjeta.TabIndex = 51
         '
         'txtVuelto
         '
@@ -290,35 +298,35 @@ Partial Class MuestraDatos
         Me.txtVuelto.Size = New System.Drawing.Size(82, 20)
         Me.txtVuelto.TabIndex = 50
         '
-        'Label8
+        'lbl8
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label8.Location = New System.Drawing.Point(295, 32)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(52, 13)
-        Me.Label8.TabIndex = 49
-        Me.Label8.Text = "Vuelto ($)"
+        Me.lbl8.AutoSize = True
+        Me.lbl8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl8.Location = New System.Drawing.Point(295, 32)
+        Me.lbl8.Name = "lbl8"
+        Me.lbl8.Size = New System.Drawing.Size(52, 13)
+        Me.lbl8.TabIndex = 49
+        Me.lbl8.Text = "Vuelto ($)"
         '
-        'Label6
+        'lbl6
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label6.Location = New System.Drawing.Point(488, 95)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(28, 13)
-        Me.Label6.TabIndex = 48
-        Me.Label6.Text = "CVC"
+        Me.lbl6.AutoSize = True
+        Me.lbl6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl6.Location = New System.Drawing.Point(488, 95)
+        Me.lbl6.Name = "lbl6"
+        Me.lbl6.Size = New System.Drawing.Size(28, 13)
+        Me.lbl6.TabIndex = 48
+        Me.lbl6.Text = "CVC"
         '
-        'Label5
+        'lbl5
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label5.Location = New System.Drawing.Point(310, 95)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(98, 13)
-        Me.Label5.TabIndex = 47
-        Me.Label5.Text = "Fecha Vencimiento"
+        Me.lbl5.AutoSize = True
+        Me.lbl5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl5.Location = New System.Drawing.Point(310, 95)
+        Me.lbl5.Name = "lbl5"
+        Me.lbl5.Size = New System.Drawing.Size(98, 13)
+        Me.lbl5.TabIndex = 47
+        Me.lbl5.Text = "Fecha Vencimiento"
         '
         'txtApellidoTitular
         '
@@ -328,15 +336,15 @@ Partial Class MuestraDatos
         Me.txtApellidoTitular.Size = New System.Drawing.Size(150, 20)
         Me.txtApellidoTitular.TabIndex = 46
         '
-        'Label7
+        'lbl7
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label7.Location = New System.Drawing.Point(332, 69)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(76, 13)
-        Me.Label7.TabIndex = 45
-        Me.Label7.Text = "Apellido Titular"
+        Me.lbl7.AutoSize = True
+        Me.lbl7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl7.Location = New System.Drawing.Point(332, 69)
+        Me.lbl7.Name = "lbl7"
+        Me.lbl7.Size = New System.Drawing.Size(76, 13)
+        Me.lbl7.TabIndex = 45
+        Me.lbl7.Text = "Apellido Titular"
         '
         'txtNombreTitular
         '
@@ -346,25 +354,25 @@ Partial Class MuestraDatos
         Me.txtNombreTitular.Size = New System.Drawing.Size(120, 20)
         Me.txtNombreTitular.TabIndex = 44
         '
-        'Label10
+        'lbl10
         '
-        Me.Label10.AutoSize = True
-        Me.Label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label10.Location = New System.Drawing.Point(117, 69)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(76, 13)
-        Me.Label10.TabIndex = 43
-        Me.Label10.Text = "Nombre Titular"
+        Me.lbl10.AutoSize = True
+        Me.lbl10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl10.Location = New System.Drawing.Point(117, 69)
+        Me.lbl10.Name = "lbl10"
+        Me.lbl10.Size = New System.Drawing.Size(76, 13)
+        Me.lbl10.TabIndex = 43
+        Me.lbl10.Text = "Nombre Titular"
         '
-        'Label11
+        'lbl11
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label11.Location = New System.Drawing.Point(117, 95)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(63, 13)
-        Me.Label11.TabIndex = 42
-        Me.Label11.Text = "Nro. Tarjeta"
+        Me.lbl11.AutoSize = True
+        Me.lbl11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl11.Location = New System.Drawing.Point(117, 95)
+        Me.lbl11.Name = "lbl11"
+        Me.lbl11.Size = New System.Drawing.Size(63, 13)
+        Me.lbl11.TabIndex = 42
+        Me.lbl11.Text = "Nro. Tarjeta"
         '
         'txtMonto
         '
@@ -374,53 +382,53 @@ Partial Class MuestraDatos
         Me.txtMonto.Size = New System.Drawing.Size(73, 20)
         Me.txtMonto.TabIndex = 41
         '
-        'Label12
+        'lbl12
         '
-        Me.Label12.AutoSize = True
-        Me.Label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label12.Location = New System.Drawing.Point(92, 32)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(97, 13)
-        Me.Label12.TabIndex = 40
-        Me.Label12.Text = "Monto a abonar ($)"
+        Me.lbl12.AutoSize = True
+        Me.lbl12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl12.Location = New System.Drawing.Point(92, 32)
+        Me.lbl12.Name = "lbl12"
+        Me.lbl12.Size = New System.Drawing.Size(97, 13)
+        Me.lbl12.TabIndex = 40
+        Me.lbl12.Text = "Monto a abonar ($)"
         '
-        'rbTarjeta
+        'rdoTarjeta
         '
-        Me.rbTarjeta.AutoSize = True
-        Me.rbTarjeta.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.rbTarjeta.Location = New System.Drawing.Point(15, 67)
-        Me.rbTarjeta.Name = "rbTarjeta"
-        Me.rbTarjeta.Size = New System.Drawing.Size(85, 17)
-        Me.rbTarjeta.TabIndex = 39
-        Me.rbTarjeta.Text = "Tarjeta VISA"
-        Me.rbTarjeta.UseVisualStyleBackColor = True
+        Me.rdoTarjeta.AutoSize = True
+        Me.rdoTarjeta.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.rdoTarjeta.Location = New System.Drawing.Point(15, 67)
+        Me.rdoTarjeta.Name = "rdoTarjeta"
+        Me.rdoTarjeta.Size = New System.Drawing.Size(85, 17)
+        Me.rdoTarjeta.TabIndex = 39
+        Me.rdoTarjeta.Text = "Tarjeta VISA"
+        Me.rdoTarjeta.UseVisualStyleBackColor = True
         '
-        'rbEfectivo
+        'rdoEfectivo
         '
-        Me.rbEfectivo.AutoSize = True
-        Me.rbEfectivo.Checked = True
-        Me.rbEfectivo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.rbEfectivo.Location = New System.Drawing.Point(15, 30)
-        Me.rbEfectivo.Name = "rbEfectivo"
-        Me.rbEfectivo.Size = New System.Drawing.Size(64, 17)
-        Me.rbEfectivo.TabIndex = 38
-        Me.rbEfectivo.TabStop = True
-        Me.rbEfectivo.Text = "Efectivo"
-        Me.rbEfectivo.UseVisualStyleBackColor = True
+        Me.rdoEfectivo.AutoSize = True
+        Me.rdoEfectivo.Checked = True
+        Me.rdoEfectivo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.rdoEfectivo.Location = New System.Drawing.Point(15, 30)
+        Me.rdoEfectivo.Name = "rdoEfectivo"
+        Me.rdoEfectivo.Size = New System.Drawing.Size(64, 17)
+        Me.rdoEfectivo.TabIndex = 38
+        Me.rdoEfectivo.TabStop = True
+        Me.rdoEfectivo.Text = "Efectivo"
+        Me.rdoEfectivo.UseVisualStyleBackColor = True
         '
-        'GroupBox1
+        'grpEntrega
         '
-        Me.GroupBox1.Controls.Add(Me.txtFecha)
-        Me.GroupBox1.Controls.Add(Me.txtHora)
-        Me.GroupBox1.Controls.Add(Me.Label13)
-        Me.GroupBox1.Controls.Add(Me.Label14)
-        Me.GroupBox1.Enabled = False
-        Me.GroupBox1.Location = New System.Drawing.Point(15, 146)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(579, 51)
-        Me.GroupBox1.TabIndex = 26
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Momento de Entrega"
+        Me.grpEntrega.Controls.Add(Me.txtFecha)
+        Me.grpEntrega.Controls.Add(Me.mtxHora)
+        Me.grpEntrega.Controls.Add(Me.lbl13)
+        Me.grpEntrega.Controls.Add(Me.lbl14)
+        Me.grpEntrega.Enabled = False
+        Me.grpEntrega.Location = New System.Drawing.Point(15, 146)
+        Me.grpEntrega.Name = "grpEntrega"
+        Me.grpEntrega.Size = New System.Drawing.Size(579, 51)
+        Me.grpEntrega.TabIndex = 26
+        Me.grpEntrega.TabStop = False
+        Me.grpEntrega.Text = "Momento de Entrega"
         '
         'txtFecha
         '
@@ -430,42 +438,42 @@ Partial Class MuestraDatos
         Me.txtFecha.Size = New System.Drawing.Size(73, 20)
         Me.txtFecha.TabIndex = 54
         '
-        'txtHora
+        'mtxHora
         '
-        Me.txtHora.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txtHora.Location = New System.Drawing.Point(198, 20)
-        Me.txtHora.Mask = "00:00"
-        Me.txtHora.Name = "txtHora"
-        Me.txtHora.Size = New System.Drawing.Size(47, 20)
-        Me.txtHora.TabIndex = 18
-        Me.txtHora.ValidatingType = GetType(Date)
+        Me.mtxHora.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.mtxHora.Location = New System.Drawing.Point(198, 20)
+        Me.mtxHora.Mask = "00:00"
+        Me.mtxHora.Name = "mtxHora"
+        Me.mtxHora.Size = New System.Drawing.Size(47, 20)
+        Me.mtxHora.TabIndex = 18
+        Me.mtxHora.ValidatingType = GetType(Date)
         '
-        'Label13
+        'lbl13
         '
-        Me.Label13.AutoSize = True
-        Me.Label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label13.Location = New System.Drawing.Point(151, 23)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(30, 13)
-        Me.Label13.TabIndex = 17
-        Me.Label13.Text = "Hora"
+        Me.lbl13.AutoSize = True
+        Me.lbl13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl13.Location = New System.Drawing.Point(151, 23)
+        Me.lbl13.Name = "lbl13"
+        Me.lbl13.Size = New System.Drawing.Size(30, 13)
+        Me.lbl13.TabIndex = 17
+        Me.lbl13.Text = "Hora"
         '
-        'Label14
+        'lbl14
         '
-        Me.Label14.AutoSize = True
-        Me.Label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label14.Location = New System.Drawing.Point(13, 23)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(37, 13)
-        Me.Label14.TabIndex = 16
-        Me.Label14.Text = "Fecha"
+        Me.lbl14.AutoSize = True
+        Me.lbl14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl14.Location = New System.Drawing.Point(13, 23)
+        Me.lbl14.Name = "lbl14"
+        Me.lbl14.Size = New System.Drawing.Size(37, 13)
+        Me.lbl14.TabIndex = 16
+        Me.lbl14.Text = "Fecha"
         '
         'btnConfirmar
         '
         Me.btnConfirmar.Location = New System.Drawing.Point(302, 635)
         Me.btnConfirmar.Name = "btnConfirmar"
         Me.btnConfirmar.Size = New System.Drawing.Size(173, 23)
-        Me.btnConfirmar.TabIndex = 1
+        Me.btnConfirmar.TabIndex = 27
         Me.btnConfirmar.Text = "Confirmar"
         Me.btnConfirmar.UseVisualStyleBackColor = True
         '
@@ -474,80 +482,73 @@ Partial Class MuestraDatos
         Me.btnCancelar.Location = New System.Drawing.Point(123, 635)
         Me.btnCancelar.Name = "btnCancelar"
         Me.btnCancelar.Size = New System.Drawing.Size(173, 23)
-        Me.btnCancelar.TabIndex = 2
+        Me.btnCancelar.TabIndex = 28
         Me.btnCancelar.Text = "Cancelar"
         Me.btnCancelar.UseVisualStyleBackColor = True
         '
-        'txtFechaVencimiento
-        '
-        Me.txtFechaVencimiento.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txtFechaVencimiento.Location = New System.Drawing.Point(414, 92)
-        Me.txtFechaVencimiento.Name = "txtFechaVencimiento"
-        Me.txtFechaVencimiento.Size = New System.Drawing.Size(61, 20)
-        Me.txtFechaVencimiento.TabIndex = 55
-        '
-        'MuestraDatos
+        'frmMuestraDatos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(604, 668)
         Me.Controls.Add(Me.btnCancelar)
         Me.Controls.Add(Me.btnConfirmar)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.gbFormaPago)
-        Me.Controls.Add(Me.gbDatosEnvio)
+        Me.Controls.Add(Me.grpEntrega)
+        Me.Controls.Add(Me.grpFormaPago)
+        Me.Controls.Add(Me.grpDatosEnvio)
         Me.Controls.Add(Me.gbPedido)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
-        Me.Name = "MuestraDatos"
+        Me.Name = "frmMuestraDatos"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MuestraDatos"
         Me.gbPedido.ResumeLayout(False)
         Me.gbPedido.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         CType(Me.dgvDetallePedido, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.gbDatosEnvio.ResumeLayout(False)
-        Me.gbDatosEnvio.PerformLayout()
-        Me.gbFormaPago.ResumeLayout(False)
-        Me.gbFormaPago.PerformLayout()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
+        Me.grpDatosEnvio.ResumeLayout(False)
+        Me.grpDatosEnvio.PerformLayout()
+        Me.grpFormaPago.ResumeLayout(False)
+        Me.grpFormaPago.PerformLayout()
+        Me.grpEntrega.ResumeLayout(False)
+        Me.grpEntrega.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents gbPedido As GroupBox
     Friend WithEvents dgvDetallePedido As DataGridView
-    Friend WithEvents gbDatosEnvio As GroupBox
+    Friend WithEvents grpDatosEnvio As GroupBox
     Friend WithEvents txtCiudad As TextBox
-    Friend WithEvents Label4 As Label
+    Friend WithEvents lbl4 As Label
     Friend WithEvents txtReferencia As TextBox
-    Friend WithEvents Label3 As Label
+    Friend WithEvents lbl3 As Label
     Friend WithEvents txtNro As TextBox
-    Friend WithEvents Label2 As Label
+    Friend WithEvents lbl2 As Label
     Friend WithEvents txtCalle As TextBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents gbFormaPago As GroupBox
-    Friend WithEvents txtCvc As MaskedTextBox
-    Friend WithEvents txtNroTarjeta As MaskedTextBox
+    Friend WithEvents lbl1 As Label
+    Friend WithEvents grpFormaPago As GroupBox
+    Friend WithEvents mtxFechaVencimiento As MaskedTextBox
+    Friend WithEvents mtxCvc As MaskedTextBox
+    Friend WithEvents mtxNroTarjeta As MaskedTextBox
     Friend WithEvents txtVuelto As TextBox
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label5 As Label
+    Friend WithEvents lbl8 As Label
+    Friend WithEvents lbl6 As Label
+    Friend WithEvents lbl5 As Label
     Friend WithEvents txtApellidoTitular As TextBox
-    Friend WithEvents Label7 As Label
+    Friend WithEvents lbl7 As Label
     Friend WithEvents txtNombreTitular As TextBox
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label11 As Label
+    Friend WithEvents lbl10 As Label
+    Friend WithEvents lbl11 As Label
     Friend WithEvents txtMonto As TextBox
-    Friend WithEvents Label12 As Label
-    Friend WithEvents rbTarjeta As RadioButton
-    Friend WithEvents rbEfectivo As RadioButton
+    Friend WithEvents lbl12 As Label
+    Friend WithEvents rdoTarjeta As RadioButton
+    Friend WithEvents rdoEfectivo As RadioButton
     Friend WithEvents Panel1 As Panel
     Friend WithEvents txtTotal As TextBox
-    Friend WithEvents Label9 As Label
-    Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents txtHora As MaskedTextBox
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label14 As Label
+    Friend WithEvents lbl9 As Label
+    Friend WithEvents grpEntrega As GroupBox
+    Friend WithEvents mtxHora As MaskedTextBox
+    Friend WithEvents lbl13 As Label
+    Friend WithEvents lbl14 As Label
     Friend WithEvents btnConfirmar As Button
     Friend WithEvents btnCancelar As Button
     Friend WithEvents cProducto As DataGridViewTextBoxColumn
@@ -555,5 +556,4 @@ Partial Class MuestraDatos
     Friend WithEvents cCantidad As DataGridViewTextBoxColumn
     Friend WithEvents cSubTotal As DataGridViewTextBoxColumn
     Friend WithEvents txtFecha As TextBox
-    Friend WithEvents txtFechaVencimiento As TextBox
 End Class

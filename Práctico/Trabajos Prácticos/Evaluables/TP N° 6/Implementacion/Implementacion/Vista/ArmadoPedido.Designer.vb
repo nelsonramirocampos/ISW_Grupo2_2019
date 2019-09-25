@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class ArmadoPedido
+Partial Class frmArmadoPedido
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -23,10 +23,10 @@ Partial Class ArmadoPedido
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.btnAgregar = New System.Windows.Forms.Button()
-        Me.cbProducto = New System.Windows.Forms.ComboBox()
-        Me.cbComercios = New System.Windows.Forms.ComboBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.cboProducto = New System.Windows.Forms.ComboBox()
+        Me.cboComercios = New System.Windows.Forms.ComboBox()
+        Me.lbl2 = New System.Windows.Forms.Label()
+        Me.lbl1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.dgvDetallePedido = New System.Windows.Forms.DataGridView()
         Me.cIdProducto = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -35,15 +35,15 @@ Partial Class ArmadoPedido
         Me.cPrecio = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.cCantidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.cSubTotal = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.lbl3 = New System.Windows.Forms.Label()
         Me.txtTotal = New System.Windows.Forms.TextBox()
-        Me.foto = New System.Windows.Forms.PictureBox()
+        Me.imgFoto = New System.Windows.Forms.PictureBox()
         Me.btnSiguiente = New System.Windows.Forms.Button()
         Me.btnCancelar = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.dgvDetallePedido, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.foto, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.imgFoto, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnAgregar
@@ -51,45 +51,45 @@ Partial Class ArmadoPedido
         Me.btnAgregar.Location = New System.Drawing.Point(287, 102)
         Me.btnAgregar.Name = "btnAgregar"
         Me.btnAgregar.Size = New System.Drawing.Size(75, 23)
-        Me.btnAgregar.TabIndex = 3
+        Me.btnAgregar.TabIndex = 9
         Me.btnAgregar.Text = "Agregar"
         Me.btnAgregar.UseVisualStyleBackColor = True
         '
-        'cbProducto
+        'cboProducto
         '
-        Me.cbProducto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cbProducto.FormattingEnabled = True
-        Me.cbProducto.Location = New System.Drawing.Point(69, 104)
-        Me.cbProducto.Name = "cbProducto"
-        Me.cbProducto.Size = New System.Drawing.Size(212, 21)
-        Me.cbProducto.TabIndex = 2
+        Me.cboProducto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboProducto.FormattingEnabled = True
+        Me.cboProducto.Location = New System.Drawing.Point(69, 104)
+        Me.cboProducto.Name = "cboProducto"
+        Me.cboProducto.Size = New System.Drawing.Size(212, 21)
+        Me.cboProducto.TabIndex = 8
         '
-        'cbComercios
+        'cboComercios
         '
-        Me.cbComercios.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cbComercios.FormattingEnabled = True
-        Me.cbComercios.Location = New System.Drawing.Point(69, 77)
-        Me.cbComercios.Name = "cbComercios"
-        Me.cbComercios.Size = New System.Drawing.Size(212, 21)
-        Me.cbComercios.TabIndex = 1
+        Me.cboComercios.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboComercios.FormattingEnabled = True
+        Me.cboComercios.Location = New System.Drawing.Point(69, 77)
+        Me.cboComercios.Name = "cboComercios"
+        Me.cboComercios.Size = New System.Drawing.Size(212, 21)
+        Me.cboComercios.TabIndex = 7
         '
-        'Label2
+        'lbl2
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 107)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(50, 13)
-        Me.Label2.TabIndex = 6
-        Me.Label2.Text = "Producto"
+        Me.lbl2.AutoSize = True
+        Me.lbl2.Location = New System.Drawing.Point(12, 107)
+        Me.lbl2.Name = "lbl2"
+        Me.lbl2.Size = New System.Drawing.Size(50, 13)
+        Me.lbl2.TabIndex = 6
+        Me.lbl2.Text = "Producto"
         '
-        'Label1
+        'lbl1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 80)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(51, 13)
-        Me.Label1.TabIndex = 5
-        Me.Label1.Text = "Comercio"
+        Me.lbl1.AutoSize = True
+        Me.lbl1.Location = New System.Drawing.Point(12, 80)
+        Me.lbl1.Name = "lbl1"
+        Me.lbl1.Size = New System.Drawing.Size(51, 13)
+        Me.lbl1.TabIndex = 5
+        Me.lbl1.Text = "Comercio"
         '
         'Panel1
         '
@@ -150,14 +150,14 @@ Partial Class ArmadoPedido
         Me.cSubTotal.Name = "cSubTotal"
         Me.cSubTotal.ReadOnly = True
         '
-        'Label3
+        'lbl3
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(363, 366)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(43, 13)
-        Me.Label3.TabIndex = 11
-        Me.Label3.Text = "Total: $"
+        Me.lbl3.AutoSize = True
+        Me.lbl3.Location = New System.Drawing.Point(363, 366)
+        Me.lbl3.Name = "lbl3"
+        Me.lbl3.Size = New System.Drawing.Size(43, 13)
+        Me.lbl3.TabIndex = 11
+        Me.lbl3.Text = "Total: $"
         '
         'txtTotal
         '
@@ -168,21 +168,21 @@ Partial Class ArmadoPedido
         Me.txtTotal.TabIndex = 12
         Me.txtTotal.Text = "0.0"
         '
-        'foto
+        'imgFoto
         '
-        Me.foto.Location = New System.Drawing.Point(371, 77)
-        Me.foto.Name = "foto"
-        Me.foto.Size = New System.Drawing.Size(143, 108)
-        Me.foto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.foto.TabIndex = 13
-        Me.foto.TabStop = False
+        Me.imgFoto.Location = New System.Drawing.Point(371, 77)
+        Me.imgFoto.Name = "imgFoto"
+        Me.imgFoto.Size = New System.Drawing.Size(143, 108)
+        Me.imgFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.imgFoto.TabIndex = 13
+        Me.imgFoto.TabStop = False
         '
         'btnSiguiente
         '
         Me.btnSiguiente.Location = New System.Drawing.Point(439, 406)
         Me.btnSiguiente.Name = "btnSiguiente"
         Me.btnSiguiente.Size = New System.Drawing.Size(75, 23)
-        Me.btnSiguiente.TabIndex = 4
+        Me.btnSiguiente.TabIndex = 14
         Me.btnSiguiente.Text = "Siguiente"
         Me.btnSiguiente.UseVisualStyleBackColor = True
         '
@@ -205,7 +205,7 @@ Partial Class ArmadoPedido
         Me.Label4.TabIndex = 16
         Me.Label4.Text = "Armado de Pedido"
         '
-        'ArmadoPedido
+        'frmArmadoPedido
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -213,35 +213,35 @@ Partial Class ArmadoPedido
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.btnCancelar)
         Me.Controls.Add(Me.btnSiguiente)
-        Me.Controls.Add(Me.foto)
+        Me.Controls.Add(Me.imgFoto)
         Me.Controls.Add(Me.txtTotal)
-        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.lbl3)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.btnAgregar)
-        Me.Controls.Add(Me.cbProducto)
-        Me.Controls.Add(Me.cbComercios)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.cboProducto)
+        Me.Controls.Add(Me.cboComercios)
+        Me.Controls.Add(Me.lbl2)
+        Me.Controls.Add(Me.lbl1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
-        Me.Name = "ArmadoPedido"
+        Me.Name = "frmArmadoPedido"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Pedido"
         Me.Panel1.ResumeLayout(False)
         CType(Me.dgvDetallePedido, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.foto, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.imgFoto, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents btnAgregar As Button
-    Friend WithEvents cbProducto As ComboBox
-    Friend WithEvents cbComercios As ComboBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
+    Friend WithEvents cboProducto As ComboBox
+    Friend WithEvents cboComercios As ComboBox
+    Friend WithEvents lbl2 As Label
+    Friend WithEvents lbl1 As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents dgvDetallePedido As DataGridView
-    Friend WithEvents Label3 As Label
+    Friend WithEvents lbl3 As Label
     Friend WithEvents txtTotal As TextBox
     Friend WithEvents cIdProducto As DataGridViewTextBoxColumn
     Friend WithEvents cIdComercio As DataGridViewTextBoxColumn
@@ -249,7 +249,7 @@ Partial Class ArmadoPedido
     Friend WithEvents cPrecio As DataGridViewTextBoxColumn
     Friend WithEvents cCantidad As DataGridViewTextBoxColumn
     Friend WithEvents cSubTotal As DataGridViewTextBoxColumn
-    Friend WithEvents foto As PictureBox
+    Friend WithEvents imgFoto As PictureBox
     Friend WithEvents btnSiguiente As Button
     Friend WithEvents btnCancelar As Button
     Friend WithEvents Label4 As Label

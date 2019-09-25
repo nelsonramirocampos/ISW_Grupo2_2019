@@ -1,3 +1,3 @@
-﻿Public Class AcercaDe
+﻿Public Class frmAcercaDe
 
 End Class
