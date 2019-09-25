@@ -32,11 +32,15 @@ Public Class Principal
     End Sub
 
     Private Sub NuevoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NuevoToolStripMenuItem.Click
+        Me.Hide()
+
         Dim pedidoCompleto As Pedido = New Pedido()
 
         Dim frm As ArmadoPedido = New ArmadoPedido(pedidoCompleto)
         frm.cargarComercios(comercios)
         frm.ShowDialog()
+
+        Me.ShowDialog()
     End Sub
 
     Private Sub SalirToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SalirToolStripMenuItem.Click

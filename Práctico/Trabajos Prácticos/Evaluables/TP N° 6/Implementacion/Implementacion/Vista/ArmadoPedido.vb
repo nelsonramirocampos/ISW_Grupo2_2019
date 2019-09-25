@@ -122,11 +122,10 @@ Public Class ArmadoPedido
             pedidoCompleto.Total1 = Decimal.Parse(txtTotal.Text)
         End If
 
-
-
-        'Dim frm As FormaPago = New FormaPago(pedidoCompleto)
-        'Me.Close()
-        'frm.ShowDialog()
+        Me.Hide()
+        Dim frm As FormaPago = New FormaPago(pedidoCompleto)
+        frm.ShowDialog()
+        Me.Close()
     End Sub
 
     Private Function busquedaProducto(id As Integer, productos As List(Of Producto)) As Producto

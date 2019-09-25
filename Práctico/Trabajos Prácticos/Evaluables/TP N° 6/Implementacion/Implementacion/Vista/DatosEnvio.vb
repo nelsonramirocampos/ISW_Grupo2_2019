@@ -28,9 +28,11 @@
         Dim dire As Direccion = New Direccion(calle, nro, ciudad, referencia)
         pedidoCompleto.Direccion1 = dire
 
+
+        Me.Hide()
         Dim frm As TiempoRecepcion = New TiempoRecepcion(pedidoCompleto)
-        Me.Close()
         frm.ShowDialog()
+        Me.Close()
     End Sub
 
     Private Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnCancelar.Click

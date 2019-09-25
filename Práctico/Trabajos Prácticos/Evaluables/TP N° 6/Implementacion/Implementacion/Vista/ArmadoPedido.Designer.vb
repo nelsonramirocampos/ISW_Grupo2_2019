@@ -170,7 +170,7 @@ Partial Class ArmadoPedido
         '
         'foto
         '
-        Me.foto.Location = New System.Drawing.Point(367, 77)
+        Me.foto.Location = New System.Drawing.Point(371, 77)
         Me.foto.Name = "foto"
         Me.foto.Size = New System.Drawing.Size(143, 108)
         Me.foto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
