@@ -126,6 +126,12 @@
     <Compile Include="Vista\DatosEnvio.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Vista\FormaPago.Designer.vb">
+      <DependentUpon>FormaPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormaPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Vista\Principal.Designer.vb">
       <DependentUpon>Principal.vb</DependentUpon>
     </Compile>
@@ -154,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vista\DatosEnvio.resx">
       <DependentUpon>DatosEnvio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormaPago.resx">
+      <DependentUpon>FormaPago.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vista\Principal.resx">
       <DependentUpon>Principal.vb</DependentUpon>
