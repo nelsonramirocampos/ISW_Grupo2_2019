@@ -6,7 +6,7 @@ Public Class Pedido
     Private total As Decimal
     Private direccion As Direccion
     Private fechaHora As TiempoEnvio
-
+    Private tipoPago As TipoPago
 
     Public Sub New()
     End Sub
@@ -49,6 +49,15 @@ Public Class Pedido
         End Get
         Set(value As TiempoEnvio)
             fechaHora = value
+        End Set
+    End Property
+
+    Public Property TipoPago1 As TipoPago
+        Get
+            Return tipoPago
+        End Get
+        Set(value As TipoPago)
+            tipoPago = value
         End Set
     End Property
 

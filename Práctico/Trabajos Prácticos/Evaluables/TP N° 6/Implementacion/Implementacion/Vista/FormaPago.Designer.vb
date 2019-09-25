@@ -22,32 +22,27 @@ Partial Class FormaPago
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.txtCvc = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.txtFechaVencimiento = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.txtApellidoTitular = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txtNombreTitular = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.txtNroTarjeta = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtMonto = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.rbTarjeta = New System.Windows.Forms.RadioButton()
+        Me.rbEfectivo = New System.Windows.Forms.RadioButton()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.btnCancelar = New System.Windows.Forms.Button()
         Me.btnSiguiente = New System.Windows.Forms.Button()
+        Me.txtMontoTotal = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.txtNroTarjeta = New System.Windows.Forms.MaskedTextBox()
+        Me.txtCvc = New System.Windows.Forms.MaskedTextBox()
+        Me.txtFechaVencimiento = New System.Windows.Forms.MaskedTextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
-        '
-        'txtCvc
-        '
-        Me.txtCvc.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txtCvc.Location = New System.Drawing.Point(74, 241)
-        Me.txtCvc.Name = "txtCvc"
-        Me.txtCvc.Size = New System.Drawing.Size(54, 20)
-        Me.txtCvc.TabIndex = 28
         '
         'Label6
         '
@@ -58,14 +53,6 @@ Partial Class FormaPago
         Me.Label6.Size = New System.Drawing.Size(28, 13)
         Me.Label6.TabIndex = 27
         Me.Label6.Text = "CVC"
-        '
-        'txtFechaVencimiento
-        '
-        Me.txtFechaVencimiento.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txtFechaVencimiento.Location = New System.Drawing.Point(144, 215)
-        Me.txtFechaVencimiento.Name = "txtFechaVencimiento"
-        Me.txtFechaVencimiento.Size = New System.Drawing.Size(54, 20)
-        Me.txtFechaVencimiento.TabIndex = 26
         '
         'Label5
         '
@@ -113,14 +100,6 @@ Partial Class FormaPago
         Me.Label3.TabIndex = 21
         Me.Label3.Text = "Nombre Titular"
         '
-        'txtNroTarjeta
-        '
-        Me.txtNroTarjeta.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txtNroTarjeta.Location = New System.Drawing.Point(109, 163)
-        Me.txtNroTarjeta.Name = "txtNroTarjeta"
-        Me.txtNroTarjeta.Size = New System.Drawing.Size(262, 20)
-        Me.txtNroTarjeta.TabIndex = 20
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
@@ -134,9 +113,9 @@ Partial Class FormaPago
         'txtMonto
         '
         Me.txtMonto.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txtMonto.Location = New System.Drawing.Point(98, 90)
+        Me.txtMonto.Location = New System.Drawing.Point(141, 90)
         Me.txtMonto.Name = "txtMonto"
-        Me.txtMonto.Size = New System.Drawing.Size(100, 20)
+        Me.txtMonto.Size = New System.Drawing.Size(73, 20)
         Me.txtMonto.TabIndex = 18
         '
         'Label1
@@ -145,33 +124,33 @@ Partial Class FormaPago
         Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Label1.Location = New System.Drawing.Point(40, 93)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(52, 13)
+        Me.Label1.Size = New System.Drawing.Size(97, 13)
         Me.Label1.TabIndex = 17
-        Me.Label1.Text = "Monto ($)"
+        Me.Label1.Text = "Monto a abonar ($)"
         '
-        'RadioButton2
+        'rbTarjeta
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.RadioButton2.Location = New System.Drawing.Point(15, 139)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(85, 17)
-        Me.RadioButton2.TabIndex = 16
-        Me.RadioButton2.Text = "Tarjeta VISA"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.rbTarjeta.AutoSize = True
+        Me.rbTarjeta.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.rbTarjeta.Location = New System.Drawing.Point(15, 139)
+        Me.rbTarjeta.Name = "rbTarjeta"
+        Me.rbTarjeta.Size = New System.Drawing.Size(85, 17)
+        Me.rbTarjeta.TabIndex = 16
+        Me.rbTarjeta.Text = "Tarjeta VISA"
+        Me.rbTarjeta.UseVisualStyleBackColor = True
         '
-        'RadioButton1
+        'rbEfectivo
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Checked = True
-        Me.RadioButton1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.RadioButton1.Location = New System.Drawing.Point(15, 65)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(64, 17)
-        Me.RadioButton1.TabIndex = 15
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Efectivo"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.rbEfectivo.AutoSize = True
+        Me.rbEfectivo.Checked = True
+        Me.rbEfectivo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.rbEfectivo.Location = New System.Drawing.Point(15, 65)
+        Me.rbEfectivo.Name = "rbEfectivo"
+        Me.rbEfectivo.Size = New System.Drawing.Size(64, 17)
+        Me.rbEfectivo.TabIndex = 15
+        Me.rbEfectivo.TabStop = True
+        Me.rbEfectivo.Text = "Efectivo"
+        Me.rbEfectivo.UseVisualStyleBackColor = True
         '
         'Label7
         '
@@ -201,28 +180,84 @@ Partial Class FormaPago
         Me.btnSiguiente.Text = "Siguiente"
         Me.btnSiguiente.UseVisualStyleBackColor = True
         '
+        'txtMontoTotal
+        '
+        Me.txtMontoTotal.Enabled = False
+        Me.txtMontoTotal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.txtMontoTotal.Location = New System.Drawing.Point(379, 90)
+        Me.txtMontoTotal.Name = "txtMontoTotal"
+        Me.txtMontoTotal.Size = New System.Drawing.Size(82, 20)
+        Me.txtMontoTotal.TabIndex = 33
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label8.Location = New System.Drawing.Point(294, 93)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(79, 13)
+        Me.Label8.TabIndex = 32
+        Me.Label8.Text = "Monto Total ($)"
+        '
+        'txtNroTarjeta
+        '
+        Me.txtNroTarjeta.Location = New System.Drawing.Point(109, 163)
+        Me.txtNroTarjeta.Mask = "9999999999999999"
+        Me.txtNroTarjeta.Name = "txtNroTarjeta"
+        Me.txtNroTarjeta.Size = New System.Drawing.Size(188, 20)
+        Me.txtNroTarjeta.TabIndex = 34
+        '
+        'txtCvc
+        '
+        Me.txtCvc.Location = New System.Drawing.Point(74, 241)
+        Me.txtCvc.Mask = "999"
+        Me.txtCvc.Name = "txtCvc"
+        Me.txtCvc.Size = New System.Drawing.Size(42, 20)
+        Me.txtCvc.TabIndex = 35
+        '
+        'txtFechaVencimiento
+        '
+        Me.txtFechaVencimiento.Location = New System.Drawing.Point(144, 215)
+        Me.txtFechaVencimiento.Mask = "00/0000"
+        Me.txtFechaVencimiento.Name = "txtFechaVencimiento"
+        Me.txtFechaVencimiento.Size = New System.Drawing.Size(58, 20)
+        Me.txtFechaVencimiento.TabIndex = 36
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label9.Location = New System.Drawing.Point(208, 218)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(58, 13)
+        Me.Label9.TabIndex = 37
+        Me.Label9.Text = "(mm/aaaa)"
+        '
         'FormaPago
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(473, 300)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.txtFechaVencimiento)
+        Me.Controls.Add(Me.txtCvc)
+        Me.Controls.Add(Me.txtNroTarjeta)
+        Me.Controls.Add(Me.txtMontoTotal)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.btnCancelar)
         Me.Controls.Add(Me.btnSiguiente)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.txtCvc)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.txtFechaVencimiento)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.txtApellidoTitular)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.txtNombreTitular)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.txtNroTarjeta)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtMonto)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.RadioButton2)
-        Me.Controls.Add(Me.RadioButton1)
+        Me.Controls.Add(Me.rbTarjeta)
+        Me.Controls.Add(Me.rbEfectivo)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "FormaPago"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -231,22 +266,24 @@ Partial Class FormaPago
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents txtCvc As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents txtFechaVencimiento As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents txtApellidoTitular As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents txtNombreTitular As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents txtNroTarjeta As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents txtMonto As TextBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents rbTarjeta As RadioButton
+    Friend WithEvents rbEfectivo As RadioButton
     Friend WithEvents Label7 As Label
     Friend WithEvents btnCancelar As Button
     Friend WithEvents btnSiguiente As Button
+    Friend WithEvents txtMontoTotal As TextBox
+    Friend WithEvents Label8 As Label
+    Friend WithEvents txtNroTarjeta As MaskedTextBox
+    Friend WithEvents txtCvc As MaskedTextBox
+    Friend WithEvents txtFechaVencimiento As MaskedTextBox
+    Friend WithEvents Label9 As Label
 End Class

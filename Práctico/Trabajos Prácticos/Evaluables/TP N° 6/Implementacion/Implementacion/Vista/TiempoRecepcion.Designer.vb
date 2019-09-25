@@ -141,8 +141,10 @@ Partial Class TiempoRecepcion
         Me.Controls.Add(Me.rdoFechaHora)
         Me.Controls.Add(Me.rdoAntesPosible)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "TiempoRecepcion"
-        Me.Text = "TiempoRecepcion"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Tiempo Recepcion"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

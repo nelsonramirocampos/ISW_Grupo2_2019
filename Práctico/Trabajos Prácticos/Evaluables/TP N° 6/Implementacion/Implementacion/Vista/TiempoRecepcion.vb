@@ -71,7 +71,13 @@
         End If
 
 
-        finalizacion()
+        'finalizacion()
+
+        Me.Hide()
+        Dim frm As MuestraDatos = New MuestraDatos(Me.pedidoCompleto)
+        frm.ShowDialog()
+        Me.Close()
+
     End Sub
 
     Private Sub finalizacion()

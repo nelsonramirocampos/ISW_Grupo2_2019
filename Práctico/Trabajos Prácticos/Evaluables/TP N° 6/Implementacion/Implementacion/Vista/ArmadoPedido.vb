@@ -69,7 +69,7 @@ Public Class ArmadoPedido
     End Sub
 
     Private Sub actualizarTotal()
-        Dim total As Decimal = Decimal.Parse(txtTotal.Text)
+        Dim total As Decimal = 0
 
         For Each fila As DataGridViewRow In dgvDetallePedido.Rows
             total = total + Decimal.Parse(fila.Cells("cSubTotal").Value)
