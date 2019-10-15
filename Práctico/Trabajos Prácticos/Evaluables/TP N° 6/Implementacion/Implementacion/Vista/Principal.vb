@@ -40,7 +40,7 @@ Public Class frmPrincipal
         frm.cargarComercios(comercios)
         frm.ShowDialog()
 
-        Me.Visible = True
+        Me.ShowDialog()
     End Sub
 
     Private Sub SalirToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SalirToolStripMenuItem.Click

@@ -30,6 +30,7 @@ C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\E
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.exe
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.pdb
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.xml
+C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.vbprojResolveAssemblyReference.cache
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.AcercaDe.resources
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.ArmadoPedido.resources
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.Resources.resources
@@ -39,3 +40,49 @@ C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\E
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.TiempoRecepcion.resources
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.vbproj.GenerateResource.Cache
 C:\Users\Ramiro\Documents\GitHub\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.MuestraDatos.resources
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\bin\Debug\Imagenes\Doña Ana\Pizza Comun.jpg
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\bin\Debug\Imagenes\Doña Ana\Sandwich Milanesa.jpeg
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\bin\Debug\Imagenes\Fast Food\Lomito Completo.png
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\bin\Debug\Imagenes\Fast Food\Lomito Simple.jpg
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\bin\Debug\Resources\Delivery eat.png
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.exe.config
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.exe
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.pdb
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.xml
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.vbprojAssemblyReference.cache
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.Resources.resources
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.vbproj.GenerateResource.cache
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.vbproj.CoreCompileInputs.cache
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.exe
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.xml
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.pdb
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.frmAcercaDe.resources
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.frmArmadoPedido.resources
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.frmDatosEnvio.resources
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.frmFormaPago.resources
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.frmMuestraDatos.resources
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.frmTiempoRecepcion.resources
+C:\Users\Joaquin\Desktop\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.frmPrincipal.resources
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Imagenes\Doña Ana\Pizza Comun.jpg
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Imagenes\Doña Ana\Sandwich Milanesa.jpeg
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Imagenes\Fast Food\Lomito Completo.png
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Imagenes\Fast Food\Lomito Simple.jpg
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Resources\Delivery eat.png
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.exe.config
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.exe
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.pdb
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\bin\Debug\Implementacion.xml
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.vbprojAssemblyReference.cache
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.frmAcercaDe.resources
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.frmArmadoPedido.resources
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.Resources.resources
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.frmDatosEnvio.resources
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.frmFormaPago.resources
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.frmMuestraDatos.resources
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.frmPrincipal.resources
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.frmTiempoRecepcion.resources
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.vbproj.GenerateResource.cache
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.vbproj.CoreCompileInputs.cache
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.exe
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.xml
+D:\Joaquin2\Estudio\Ingenieria en Sistemas\4to Año\ISW - Ingeniería de Software\Repositorio\ISW_Grupo2_2019\Práctico\Trabajos Prácticos\Evaluables\TP N° 6\Implementacion\Implementacion\obj\Debug\Implementacion.pdb
